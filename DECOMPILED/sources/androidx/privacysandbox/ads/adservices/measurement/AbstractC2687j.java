@@ -1,0 +1,6 @@
+package androidx.privacysandbox.ads.adservices.measurement;
+
+/* JADX INFO: renamed from: androidx.privacysandbox.ads.adservices.measurement.j */
+/* JADX INFO: loaded from: classes.dex */
+public abstract /* synthetic */ class AbstractC2687j {
+}

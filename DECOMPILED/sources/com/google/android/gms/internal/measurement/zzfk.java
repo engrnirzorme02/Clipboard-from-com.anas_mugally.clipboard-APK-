@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.measurement;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzfk {
+    public static int zza(int i7) {
+        if (i7 == 0) {
+            return 1;
+        }
+        if (i7 == 1) {
+            return 2;
+        }
+        if (i7 == 2) {
+            return 3;
+        }
+        if (i7 != 3) {
+            return i7 != 4 ? 0 : 5;
+        }
+        return 4;
+    }
+}

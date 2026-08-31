@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="400.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="vertical" android:id="@id/radioGroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:textSize="14.0sp" android:id="@id/rbNewLine" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/newline_separator" />
+                <RadioButton android:textSize="14.0sp" android:id="@id/rbNewLineWithDashes" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/newline_with_dashes" />
+                <RadioButton android:textSize="14.0sp" android:id="@id/rbSpace" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/space_separator" />
+                <RadioButton android:textSize="14.0sp" android:id="@id/rbComma" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/comma_separator" />
+                <RadioButton android:textSize="14.0sp" android:id="@id/rbSavedCustom" android:padding="8.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/saved_custom_separator" />
+                <RadioButton android:textSize="14.0sp" android:id="@id/rbCustom" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="إدخال نص مخصص" />
+            </RadioGroup>
+            <View android:background="#e0e0e0" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginVertical="12.0dp" />
+            <CheckBox android:textSize="14.0sp" android:id="@id/cbAddNumbers" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add_numbers" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

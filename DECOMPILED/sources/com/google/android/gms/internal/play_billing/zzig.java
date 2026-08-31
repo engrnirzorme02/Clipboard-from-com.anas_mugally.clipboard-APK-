@@ -1,0 +1,73 @@
+package com.google.android.gms.internal.play_billing;
+
+/* JADX INFO: loaded from: classes2.dex */
+public final class zzig extends zzfi implements zzgm {
+    private static final zzig zzb;
+    private int zzd;
+    private int zze;
+    private int zzg;
+    private int zzi;
+    private String zzf = "";
+    private String zzh = "";
+
+    static {
+        zzig zzigVar = new zzig();
+        zzb = zzigVar;
+        zzfi.zzw(zzig.class, zzigVar);
+    }
+
+    private zzig() {
+    }
+
+    static /* synthetic */ void zzA(zzig zzigVar, String str) {
+        zzigVar.zzd |= 8;
+        zzigVar.zzh = str;
+    }
+
+    static /* synthetic */ void zzB(zzig zzigVar, String str) {
+        str.getClass();
+        zzigVar.zzd |= 2;
+        zzigVar.zzf = str;
+    }
+
+    static /* synthetic */ void zzC(zzig zzigVar, int i7) {
+        zzigVar.zzd |= 16;
+        zzigVar.zzi = i7;
+    }
+
+    static /* synthetic */ void zzD(zzig zzigVar, zzie zzieVar) {
+        zzigVar.zzg = zzieVar.zza();
+        zzigVar.zzd |= 4;
+    }
+
+    static /* synthetic */ void zzE(zzig zzigVar, int i7) {
+        zzigVar.zzd |= 1;
+        zzigVar.zze = i7;
+    }
+
+    public static zzic zzc() {
+        return (zzic) zzb.zzl();
+    }
+
+    @Override // com.google.android.gms.internal.play_billing.zzfi
+    protected final Object zzb(int i7, Object obj, Object obj2) {
+        int i8 = i7 - 1;
+        if (i8 == 0) {
+            return (byte) 1;
+        }
+        if (i8 == 2) {
+            return zzfi.zzt(zzb, "\u0004\u0005\u0000\u0001\u0001\u0007\u0005\u0000\u0000\u0000\u0001င\u0000\u0002ဈ\u0001\u0004᠌\u0002\u0005ဈ\u0003\u0007င\u0004", new Object[]{"zzd", "zze", "zzf", "zzg", zzid.zza, "zzh", "zzi"});
+        }
+        if (i8 == 3) {
+            return new zzig();
+        }
+        zzif zzifVar = null;
+        if (i8 == 4) {
+            return new zzic(zzifVar);
+        }
+        if (i8 == 5) {
+            return zzb;
+        }
+        throw null;
+    }
+}

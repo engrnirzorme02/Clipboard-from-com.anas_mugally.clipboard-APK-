@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about_app">About the App</string>
+    <string name="about_developer"><b><big>About Developer</big></b><br/>"
+"<small>Learn about the app developer.</small></string>
+    <string name="accessibility_accept_text">"Accessibility Services are used solely for professional features.
+We do not collect, save, or share your data, and it is never sent over the network or to third parties."</string>
+    <string name="accessibility_description">"ClipZ's accessibility service grants you Pro features:
+
+- A smart floating bubble with instant actions and full customization capability.
+- Secure and automatic saving of everything you copy, with flexible retention duration.
+- AI-powered tools for translation, correction, summarization, rephrasing, and content creation.
+- Quick access to all features from system buttons.
+- Instant sharing and direct text passing to other apps.
+- Advanced screen scanner to extract text, with scrolling support to extract full conversations or long texts.
+
+Enable this service to fully utilize the power of ClipZ. We do not use it for any purpose outside of its functions, and your data is not sent over the network.
+
+If you installed the app from untrusted sources (outside Google Play Store or your phone manufacturer's app store), it may have been modified, increasing the risk of data theft.
+
+For more details about this accessibility service, contact us at support@clipzboard.com"</string>
+    <string name="accessibility_how_to_enable" formatted="false">"The app will take you to Accessibility Settings.
+
+Look for \"%s\" in one of these locations:
+• Directly in the main accessibility list
+• Under Installed apps
+• Under Installed services
+• Under Downloaded services
+
+Once you find %s:
+1. Tap on it
+2. Enable the toggle switch
+3. Tap OK on any confirmation message
+
+Important notes:
+• Names may slightly differ depending on your Android version
+• On some devices, you'll find the app directly without entering any sub-menu
+• After enabling, tap \"OK\" or \"Enable\" on any confirmation messages that appear"</string>
+    <string name="accessibility_post_enabled_dialog">"To ensure the app runs with optimal performance, avoid unexpected stops, and prevent the operating system from forcing its closure, it is crucial to continue with the settings immediately.
+ Press the Continue button to go directly to the necessary settings window to ensure the app continues to function correctly."</string>
+    <string name="accessibility_service">Accessibility Services</string>
+    <string name="accessibility_service_disabled">Accessibility services not enabled</string>
+    <string name="accessibility_service_enabled">Accessibility services enabled successfully</string>
+    <string name="account_created">Account created: %s</string>
+    <string name="account_information">Account Information</string>
+    <string name="activation"><b>Activation</b></string>
+    <string name="active_filter">Active Filter: %s</string>
+    <string name="ad_attribution">AD</string>
+    <string name="add">Add</string>
+    <string name="add_new_app">Add a new app</string>
+    <string name="add_new_section">Add a New Section</string>
+    <string name="add_note">Add Note</string>
+    <string name="add_numbers">Add numbers to texts (1. 2. 3. …)</string>
+    <string name="advanced_power_settings_desc">For Pro features to work correctly, please adjust power settings so the app is unrestricted: disable power-saving mode for the app, and allow it to run in the background.</string>
+    <string name="advanced_power_settings_title">Advanced Power Settings</string>
+    <string name="ai">Artificial Intelligence</string>
+    <string name="ai_auth_required_subtitle">To use the AI features and advanced features, please sign in</string>
+    <string name="ai_text_processing">AI Text Processing</string>
+    <string name="ai_translate">AI translation</string>
+    <string name="ai_working">AI is working…</string>
+    <string name="all_app">All Apps</string>
+    <string name="all_my_notes">All My Notes</string>
+    <string name="all_permision_greneted">All permissions granted!</string>
+    <string name="all_temporary_texts_cleared">History cleared successfully</string>
+    <string name="allow_open_with_fingerpoint">Enable Fingerprint Unlock for This Section</string>
+    <string name="almost_done">Almost done…</string>
+    <string name="analyzing_content">Analyzing content…</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Password</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Passkey</string>
+    <string name="androidx_startup">androidx.startup</string>
+    <string name="app_features">App Features</string>
+    <string name="app_hibernation_desc">"Some systems automatically stop app activity if it hasn't been used for a while. To disable this, open the app settings and uncheck the (Restrict background apps) option or any option with the same meaning."</string>
+    <string name="app_hibernation_title">Disable App Hibernation</string>
+    <string name="app_name">ClipZ - AI Tools &amp; Clipboard</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="apply_filter">Apply</string>
+    <string name="applying_ai">Applying AI…</string>
+    <string name="are_you_sure_clear_all">Are you sure you want to clear the copied text history?</string>
+    <string name="are_you_sure_rest_password_and_clear_all">"Are you sure you want to reset the temporary text protection password?
+All temporary texts will be permanently deleted!"</string>
+    <string name="auth_benefits">"• AI text processing
+• Instant AI translation
+• Grammar and spelling correction
+• Rewriting in different styles"</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="auto_pick_bubble_title"><b><big>Text Input Bubble</big></b><br/>"
+"<small>Show a floating icon when the phone keyboard appears to fill the text field from saved notes in the app.</small></string>
+    <string name="auto_save_duration_title"><b><big>Retention Duration for Automatically Saved Texts</big></b><br/>"
+"<small>Set the time duration to keep automatically copied texts before they are permanently deleted.</small></string>
+    <string name="auto_save_section">Automatic Text Saving</string>
+    <string name="auto_save_texts_title"><b><big>Automatic Saving of Copied Texts</big></b><br/>"
+"<small>Automatically save copied texts temporarily in the app for quick access.</small></string>
+    <string name="auto_start">Auto Start</string>
+    <string name="back_after_op"><b><big>Deselect Items</big></b>"
+"<small>"Automatically deselect items after completing an action (copy, translate, save, swap, etc.).
+"<font color="#FFD700">⚠️ Note: This option has no effect if (Close App) is enabled.</font></small></string>
+    <string name="background_app_refresh">Background Apps</string>
+    <string name="backup_details_message">"Backup created successfully!
+
+Backup details:
+📁 Number of sections: %1$d
+📝 Number of notes: %2$d
+📄 File name: %3$s
+⏰ Creation time: %4$s"</string>
+    <string name="backup_progress">Importing is in progress, please wait</string>
+    <string name="backup_setting">Backup Settings</string>
+    <string name="backup_success_title">Backup Successful</string>
+    <string name="battery_optimization_desc">To ensure the app works continuously in the background and is not stopped by the system, please disable battery optimizations and power management for this app.</string>
+    <string name="battery_optimization_title">Ignore Battery Restrictions</string>
+    <string name="battery_saver">Battery Saver</string>
+    <string name="best_value">Best value</string>
+    <string name="biometric_button">Use Password</string>
+    <string name="biometric_protection_title"><b><big>Protect Temporary Texts with Fingerprint</big></b><br/>"
+"<small>Enable password or biometric protection for temporary texts to prevent unauthorized access.</small></string>
+    <string name="biometric_subtitle">Place your finger on the fingerprint reader.</string>
+    <string name="biometric_title">Fingerprint Verification</string>
+    <string name="bottom_sheet_behavior">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bottomsheet_action_collapse">Collapse the bottom sheet</string>
+    <string name="bottomsheet_action_expand">Expand the bottom sheet</string>
+    <string name="bottomsheet_action_expand_halfway">Expand halfway</string>
+    <string name="bottomsheet_drag_handle_content_description">Drag handle</string>
+    <string name="bubble_alpha_title">Bubble transparency</string>
+    <string name="bubble_change_location_dialog_enable"><b><big>Main Bubble Movement Dialog</big></b><br/>"
+"<small>When moving the bubble to the far right or left of the screen to move it, always show a confirmation dialog to move the bubble to the specified location.</small></string>
+    <string name="bubble_customization"><b><big>Customize the Primary Bubble</big></b><br/>"
+"<small>"Turn the app's main bubble on and off, and change its size, transparency, screen position, etc."</small></string>
+    <string name="bubble_edge_location">Floating bubble position on any edge</string>
+    <string name="bubble_in_edge_title">Hide bubble at the edge</string>
+    <string name="bubble_setting">Bubble Settings</string>
+    <string name="bubble_size_title">Floating bubble size</string>
+    <string name="bullet_item">• %1$s</string>
+    <string name="bullet_points">Bullet points</string>
+    <string name="call_notification_answer_action">Answer</string>
+    <string name="call_notification_answer_video_action">Video</string>
+    <string name="call_notification_decline_action">Decline</string>
+    <string name="call_notification_hang_up_action">Hang Up</string>
+    <string name="call_notification_incoming_text">Incoming call</string>
+    <string name="call_notification_ongoing_text">Ongoing call</string>
+    <string name="call_notification_screening_text">Screening an incoming call</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_security">Cancel protection</string>
+    <string name="cansel">Cancel</string>
+    <string name="card_transaction_name">Card Search</string>
+    <string name="category_locked_message">Please unlock this category to view its contents</string>
+    <string name="category_locked_title">Category Locked</string>
+    <string name="change">Change</string>
+    <string name="change_bubble_location_des">Do you want to move the bubble to the current location on the %1$s side of the screen?</string>
+    <string name="change_bubble_location_title">Confirm Bubble Movement</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="check_file_current">Please Verify That the File Is Correct</string>
+    <string name="choose_language">Choose language</string>
+    <string name="choose_text_length">Choose text length</string>
+    <string name="choose_text_type">Choose text type</string>
+    <string name="chose_app">Choose Apps</string>
+    <string name="chose_auto_save_section">Choose the text retention duration</string>
+    <string name="clear">Clear</string>
+    <string name="clear_all_not_show_again"><b><big>Show Instructions Again</big></b><br/>"
+Clear data to reset Don’t Show Again options."</string>
+    <string name="clear_all_temporary_texts">Clear text history</string>
+    <string name="clear_date_range">Clear Date Range</string>
+    <string name="clear_filter">Clear Filter</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="clipboard">Clipboard</string>
+    <string name="clipboard_overlay_title"><b><big>Display Copied Text </big></b><br/>"
+"<small>Show a floating element at the top of the screen immediately after copying to facilitate handling the copied text.</small></string>
+    <string name="close">Close</string>
+    <string name="close_app_after">Close App After</string>
+    <string name="close_app_after_work_with_note"><b><big>Close App</big></b>"
+"<small>Automatically close the app after completing any action (copy, translate, save, swap, etc.)</small></string>
+    <string name="collapse">Collapse</string>
+    <string name="com.google.firebase.crashlytics.mapping_file_id">cf3e078e7ee5411d974827003df0907e</string>
+    <string name="com.google.firebase.crashlytics.version_control_info">"repositories {
+  system: GIT
+  local_root_path: \"$PROJECT_DIR\"
+  revision: \"af394becba757a6d14429396af5b979256d616bb\"
+}
+"</string>
+    <string name="combine_texts_title">Choose how to combine texts</string>
+    <string name="comma_separator">Comma and space (, )</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_device_credential_password">Use password</string>
+    <string name="connection_with_us_via_email">Let us know about any issues by contacting us via email.</string>
+    <string name="continue_text">Continue</string>
+    <string name="copied_overlay">Copied text overlay</string>
+    <string name="copied_succ">Copied to Clipboard</string>
+    <string name="copy">Copy</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="correct">Text correction</string>
+    <string name="count_of_notes_title"><b><big>Number of notes you want to display in the quick access list.</big></b><br/></string>
+    <string name="count_of_notes_value">%d item</string>
+    <string name="creative_rewrite">Creative</string>
+    <string name="custom_prompt">Custom prompt</string>
+    <string name="custom_prompt_description">Write a custom prompt to process the text the way you want</string>
+    <string name="date_range_display">%1$s - %2$s</string>
+    <string name="default_error_msg">Unknown error</string>
+    <string name="default_web_client_id">187196074245-hghuqpqv4khukt4gmhsj215m3s7ud2ji.apps.googleusercontent.com</string>
+    <string name="delete">Delete</string>
+    <string name="delete_account"><font color="#FF0000">Delete Account</font></string>
+    <string name="delete_account_confirmation">" Are you sure you want to delete your account?
+ We do not collect or store your notes or custom settings — they remain only on your device.
+ The only information we temporarily retain is limited technical usage data to prevent abuse.
+
+ Once confirmed, your account and all associated data will be permanently deleted within 24 hours to combat misuse. During this period, some app features, such as AI tools, will not be accessible. "<font color="#FF0000">⚠️ This action cannot be undone.</font> </string>
+    <string name="delete_account_text_en">Do you want to permanently delete your account? <font color="#FF0000">Delete Account</font>.</string>
+    <string name="deleted_successfully">Deleted successfully</string>
+    <string name="disable_power_management_desc">Please disable power management for the app to ensure its continuous operation.</string>
+    <string name="do_not_show_again">Do not show again</string>
+    <string name="document_scanner_label">Extract Text</string>
+    <string name="done">Done</string>
+    <string name="done_add_to_clipboard">Successfully added to %s</string>
+    <string name="done_swap_to_clipboard">Successfully moved to %s</string>
+    <string name="dont_show_one_week">"Don't show for a week"</string>
+    <string name="download_google_translate">Please download the Google Translate app.</string>
+    <string name="email_not_verified">Email not verified</string>
+    <string name="email_verified">Email verified</string>
+    <string name="emoji_rewrite">Emoji</string>
+    <string name="empty_response">Empty response</string>
+    <string name="empty_text">Empty text</string>
+    <string name="enable__temporary">Activate the feature to automatically save copied texts from the professional features settings in the app.</string>
+    <string name="enable_accessibility_service_desc">The app needs accessibility services to work properly. Please enable the service in settings.</string>
+    <string name="enable_background_activity_desc">Please allow the app to run in the background to ensure optimal performance.</string>
+    <string name="enable_features">Enable Professional Features</string>
+    <string name="enable_notification_feature">Enable Notification Feature</string>
+    <string name="enable_notifications">Enable Notifications Now</string>
+    <string name="enable_pro_feature">"To ensure optimal performance, activate professional features by completing some steps.
+Click here to continue."</string>
+    <string name="enable_pro_feutre_temporary">Activate professional features from the app settings to enable the app to automatically save copied texts.</string>
+    <string name="enter_custom_separator">Separator text</string>
+    <string name="enter_separator_hint">Enter text</string>
+    <string name="err_pass">Incorrect Password</string>
+    <string name="err_re_cate">You must have at least one section.</string>
+    <string name="error_a11y_label">Error: invalid</string>
+    <string name="error_ai_processing_failed">AI text processing failed. Please try again.</string>
+    <string name="error_app_update_required">Please update the app to continue</string>
+    <string name="error_authentication_required">Login required. Please sign in with a Google account.</string>
+    <string name="error_daily_limit_exceeded">You have exceeded the allowed daily limit. Please upgrade the app or try again tomorrow.</string>
+    <string name="error_editing_text">Error editing text</string>
+    <string name="error_file_too_large">File is too large</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="error_invalid_data">"Invalid data. Please check the inputs, text length, and operation, and try again.
+If the error persists, please update the app to the latest version available on the app store."</string>
+    <string name="error_invalid_token">Invalid authentication token. Please sign in again.</string>
+    <string name="error_network">"Network connection error. Please check your internet connection and try again.
+If the error persists, please contact the app developer."</string>
+    <string name="error_not_spicfical">An unspecified error occurred.</string>
+    <string name="error_open_app">Please ensure you have a suitable app installed.</string>
+    <string name="error_processing_text">Error processing text</string>
+    <string name="error_prompt_type_not_found">Prompt type not found. Please try again.</string>
+    <string name="error_read_file">Error reading file</string>
+    <string name="error_reading_shared_text">Failed to read shared text</string>
+    <string name="error_server">"Server error. Please try again later.
+If the error persists, please contact the app developer."</string>
+    <string name="error_sharing_text">Error sharing text</string>
+    <string name="error_unauthorized">Identity verification failed. Please sign in again.</string>
+    <string name="error_unknown">"An unknown error occurred, please check your internet connection, or try again.
+If the error persists, please contact the app developer."</string>
+    <string name="error_viewing_text">Error viewing text</string>
+    <string name="execute_only">Execute only</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="expand_shrink">Expand/Shrink</string>
+    <string name="expand_text">Expand text</string>
+    <string name="expende_or_collapse">Expand or collapse</string>
+    <string name="explor_pro_features">Explore Pro Features</string>
+    <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
+    <string name="extract_contacts">Extract contact information</string>
+    <string name="extract_info">Extract information</string>
+    <string name="extract_keywords">Extract keywords</string>
+    <string name="extract_names">Extract names and places</string>
+    <string name="extract_numbers">Extract numbers and dates</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="failed_to_show_quick_access_buttons">Failed to display quick access buttons!, Make sure to enable display over other apps.</string>
+    <string name="failed_to_show_your_notes">Failed to display your notes!, Make sure to enable display over other apps.</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="feature_ai_edit">• Edit, summarize, or rewrite text instantly with AI ✍️ 🤖</string>
+    <string name="feature_ai_usage">• Expanded AI usage every day 🧠⚡</string>
+    <string name="feature_create_content">• Create reports, notes, and shareable content in seconds 📑⚡</string>
+    <string name="feature_extract_text">• Extract text from any screen or app with our smart floating bubble 📱🔍</string>
+    <string name="feature_grammar_fix">• Fix grammar and spelling errors automatically ✅📚</string>
+    <string name="feature_performance">• Enjoy faster performance and premium support ⚡💎</string>
+    <string name="feature_remove_ads">• Remove all ads completely 🚫</string>
+    <string name="feature_support">• Show your support ❤️🤝</string>
+    <string name="feature_unlock_potential">"• Unlock ClipZ's full potential 🔓✨"</string>
+    <string name="filter_all">All</string>
+    <string name="filter_custom_date">Custom Date</string>
+    <string name="filter_date_range">Date Range</string>
+    <string name="filter_this_month">This Month</string>
+    <string name="filter_this_week">This Week</string>
+    <string name="filter_today">Today</string>
+    <string name="fingerprint_authentication">Fingerprint authentication</string>
+    <string name="fingerprint_dialog_touch_sensor">Touch the fingerprint sensor</string>
+    <string name="fingerprint_error1">This device does not support fingerprint authentication.</string>
+    <string name="fingerprint_error2">Fingerprint authentication is currently unavailable.</string>
+    <string name="fingerprint_error3">Please register a fingerprint in your device settings.</string>
+    <string name="fingerprint_error4">Fingerprint authentication cannot be used.</string>
+    <string name="fingerprint_error_hw_not_available">Fingerprint hardware not available.</string>
+    <string name="fingerprint_error_hw_not_present">This device does not have a fingerprint sensor</string>
+    <string name="fingerprint_error_lockout">Too many attempts. Please try again later.</string>
+    <string name="fingerprint_error_no_fingerprints">No fingerprints enrolled.</string>
+    <string name="fingerprint_error_user_canceled">Fingerprint operation canceled by user.</string>
+    <string name="fingerprint_not_recognized">Not recognized</string>
+    <string name="firebase_database_url">https://clipboard-b09f7-default-rtdb.firebaseio.com</string>
+    <string name="first_note">Hello, have a nice day!</string>
+    <string name="first_please_enbale_show_over_app">Please grant the permission to display over other apps first.</string>
+    <string name="formal_rewrite">Formal</string>
+    <string name="from_date">From</string>
+    <string name="gcm_defaultSenderId">187196074245</string>
+    <string name="general_settings">General Settings</string>
+    <string name="generate_text">Generate text</string>
+    <string name="generating_result">Generating result…</string>
+    <string name="generic_error_no_device_credential">No PIN, pattern, or password set.</string>
+    <string name="generic_error_no_keyguard">This device does not support PIN, pattern, or password.</string>
+    <string name="generic_error_user_canceled">Authentication canceled by user.</string>
+    <string name="go_to_accessibility_setting"><b>Open Accessibility Settings</b></string>
+    <string name="go_to_app"><b>Open Clipz App</b></string>
+    <string name="go_to_setting"><b>Open Settings</b></string>
+    <string name="google_api_key">AIzaSyDMyjzmvggauooScshXW5wrOaxK2v2j8bM</string>
+    <string name="google_app_id">1:187196074245:android:dd8ff312d8364eedd7af6c</string>
+    <string name="google_billing_is_not_available">Google Play is not available or not signed in. Please check and try again.</string>
+    <string name="google_crash_reporting_api_key">AIzaSyDMyjzmvggauooScshXW5wrOaxK2v2j8bM</string>
+    <string name="google_sign_in_failed">Google sign-in failed. Please try again.</string>
+    <string name="google_storage_bucket">clipboard-b09f7.appspot.com</string>
+    <string name="grammar_correction">Grammar correction</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="half_yearly_premium">Half-yearly subscription</string>
+    <string name="helper_notification_name">Functional app notifications</string>
+    <string name="heper_notfication_description">Notifications for quick access to the app, such as adding a note, browsing a note, etc.</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="how_many_starts">How many stars would you give the app?</string>
+    <string name="how_to_cancel">How to cancel?</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="import_details">Import details:</string>
+    <string name="import_success_message">Import process completed successfully!</string>
+    <string name="import_success_title">Import Successful</string>
+    <string name="in_app_purchased">Remove Ads</string>
+    <string name="informal_rewrite">Informal</string>
+    <string name="input_bubble">Floating icon and drop-down menu for text input</string>
+    <string name="intro_1_hello_content">Here, power and simplicity come together. Securely save your texts and notes in dedicated sections, browse them effortlessly over any app or screen location, and protect them with a fingerprint or password. The smart floating bubble is always with you wherever you go, giving you instant access to everything you need.</string>
+    <string name="intro_1_hello_title">Welcome to the world of ClipZ 🚀</string>
+    <string name="intro_2_ai_content">"Embark on a creative journey with the power of AI in ClipZ! You'll transition to a completely different experience. Translate, edit, summarize, correct, or rephrase texts in a professional style. In addition, you'll be able to create creative content with a single click. It's like having a personal assistant who always works with you."</string>
+    <string name="intro_2_ai_title">The power of AI is in your hands 🤖</string>
+    <string name="intro_3_bubble_content">"The floating bubble isn't just an icon; it's a super tool that stays with you all the time. Extract text from any app or web page, automatically fill text fields with your last copied text or saved notes, and quickly access all app functions from any application. You can also customize the bubble's location, size, or transparency to always be in the most suitable way for you."</string>
+    <string name="intro_3_bubble_title">Smart Floating Bubble 🫧</string>
+    <string name="intro_4_text_temporary_content">"You'll never lose any important text again! ClipZ automatically saves every text you copy from any app, with the option to set the retention period from temporary to permanent. Also, with every copy operation, a floating element appears at the top of the screen, giving you quick access to share, save, or perform AI processing, saving you time and effort."</string>
+    <string name="intro_4_text_temporary_title">Automatic and smart saving for everything you copy 📝</string>
+    <string name="intro_5_quick_access_content">"Accessing ClipZ functions is faster than you think! Whether through the notification bar, the control center (quick access panel), or by long-pressing system buttons (back, home, recent apps). And if you prefer quick access via the floating bubble, a single or long press on it opens a quick access menu to the app's functions!"</string>
+    <string name="intro_5_quick_access_title">Quick access from anywhere ⚡</string>
+    <string name="intro_6_quick_share_and_past_content">"With the smart sharing feature! Add your favorite apps to ClipZ and share directly to them from within the app, with support for display via a pop-up window or split screen, all without leaving the app you're using to maintain your workflow. For even more magic, the app allows you to pass extracted or saved text directly to the last selected text box in any other app. Just click the text pass icon from the app, and it will automatically appear in the writing box!"</string>
+    <string name="intro_6_quick_share_and_past_title">Instant and smart sharing and pasting 🎯</string>
+    <string name="intro_7_screen_scanner_content">ClipZ features advanced capabilities for extracting text from the screen, offering two modes: a regular one and an advanced one via scrolling, where all text objects are collected while scrolling through long pages, for example, conversations in apps, with messages separated by speaker and time, to appear in one place after you finish for you to deal with them (save, share, or refer to them later).</string>
+    <string name="intro_7_screen_scanner_title">Smart and advanced screen scanner 📲</string>
+    <string name="intro_8_end_content">"ClipZ is not just a text-saving app; it's a complete and unique system that combines the power of artificial intelligence with ease of use to give you an unparalleled experience. Remember that all your texts are secure and stored locally and are never shared with us or any third party, and that periodic backup is your personal responsibility to avoid losing them in case the app is removed or the device is lost. Finally, most of the amazing features we've reviewed require activating the professional features to unleash the full experience."</string>
+    <string name="intro_8_end_title">A unique experience. Complete security. 🔒✨</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="key_points">Key points</string>
+    <string name="last_added">Last Added</string>
+    <string name="last_sign_in">Last sign in: %s</string>
+    <string name="left_postition">Left side</string>
+    <string name="lifetime_premium">Lifetime Premium</string>
+    <string name="lock">Lock</string>
+    <string name="lock_app_dialog_title">How to Pin the App</string>
+    <string name="lock_app_guide_coloros">"📱 Steps to pin the app in ColorOS:
+ 1️⃣ Press the Recent Apps button (□, ☰)
+ 2️⃣ Find the app in the list
+ 3️⃣ Press the three dots ⋮ on the app card
+ 4️⃣ Select \"Lock\" or \"Pin\"
+ ✅ Or swipe the card down and press the lock icon 🔒"</string>
+    <string name="lock_app_guide_general">"📱 Steps to pin the app:
+ 1️⃣ Press the Recent Apps button (□, ☰)
+ 2️⃣ Find the app in the list
+ 3️⃣ Look for the lock icon 🔒 or the three dots ⋮
+ 4️⃣ Press \"Lock\" or \"Pin\"
+ ✅ The app will remain in memory even when \"Clear All\" is pressed"</string>
+    <string name="lock_app_guide_huawei">"📱 Steps to pin the app in EMUI:
+ 1️⃣ Press the Recent Apps button (□, ☰)
+ 2️⃣ Find the app in the list
+ 3️⃣ Swipe the app card down
+ 4️⃣ Press the lock icon 🔒
+ ✅ The app will be pinned in memory"</string>
+    <string name="lock_app_guide_miui">"📱 Steps to pin the app in MIUI:
+ 1️⃣ Press the Recent Apps button (□, ☰)
+ 2️⃣ Find the app in the list
+ 3️⃣ Swipe the app down slightly
+ 4️⃣ A lock icon 🔒 will appear at the top
+ 5️⃣ Press the lock icon
+ ✅ The app will be pinned and won't close when \"Clear All\" is pressed"</string>
+    <string name="lock_app_guide_oneplus">"📱 Steps to pin the app in OnePlus:
+ 1️⃣ Press the Recent Apps button (□, ☰)
+ 2️⃣ Find the app in the list
+ 3️⃣ Press the three dots ⋮ at the top
+ 4️⃣ Select \"Lock\" or \"Pin\"
+ ✅ A lock icon 🔒 will appear on the card"</string>
+    <string name="lock_app_guide_samsung">"📱 Steps to pin the app in OneUI:
+ 1️⃣ Press the Recent Apps button (□, ☰)
+ 2️⃣ Find the app in the list
+ 3️⃣ Press the app icon at the top
+ 4️⃣ Select \"Keep open\" or \"Lock\"
+ ✅ Or press the lock icon 🔒 if available"</string>
+    <string name="lock_app_guide_vivo">"📱 Steps to pin the app in Vivo:
+ 1️⃣ Press the Recent Apps button (□, ☰)
+ 2️⃣ Find the app in the list
+ 3️⃣ Swipe the app card down
+ 4️⃣ Press the lock icon 🔒
+ ✅ Or long-press the card and select \"Lock\""</string>
+    <string name="lock_app_recent_desc">To prevent the app from closing when pressing \"Clear All\" in the recent apps list, pin it in the Recent Apps list. This ensures the app continues to run in the background even when clearing memory and prevents the operating system from forcing the app to stop, which leads to the deactivation of the accessibility permission.</string>
+    <string name="lock_app_recent_title">Pin App in Recent Apps Slide</string>
+    <string name="long_press_system_button">Long-press system buttons</string>
+    <string name="m3_exceed_max_badge_text_suffix">%1$s%2$s</string>
+    <string name="m3_loading_indicator_content_description">Loading</string>
+    <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="m3_sys_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_accelerate">cubic-bezier(0.3, 0, 0.8, 0.2)</string>
+    <string name="m3_sys_motion_easing_emphasized_decelerate">cubic-bezier(0.1, 0.7, 0.1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
+    <string name="m3_sys_motion_easing_legacy">cubic-bezier(0.4, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard">cubic-bezier(0.2, 0, 0, 1)</string>
+    <string name="m3_sys_motion_easing_standard_accelerate">cubic-bezier(0.3, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard_decelerate">cubic-bezier(0, 0, 0, 1)</string>
+    <string name="magic_wand">Insert Text into the Last Selected Text Box</string>
+    <string name="main">Main</string>
+    <string name="manage_subscription"><b><big>Manage your subscription</big></b><br/>"
+"<small>Manage or cancel your current plan through Google Play.</small></string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_24h_suffix">%1$s hours</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_slider_range_end">Range end</string>
+    <string name="material_slider_range_start">Range start</string>
+    <string name="material_slider_value">Value</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="message_how_to_cancel_subscrib">"Uninstalling the app will not cancel your subscription.
+1. On your Android phone or tablet, open the Google Play Store.
+2. Check if you’re signed in to the correct Google Account.
+3. Tap Menu Subscriptions.
+4. Select the subscription you want to cancel.
+5. Tap Cancel subscription.
+6. Follow the instructions. You can cancel subscription anytime."</string>
+    <string name="mi_content_description_back">Back</string>
+    <string name="mi_content_description_next">Next</string>
+    <string name="mi_content_description_next_finish">Next/Finish</string>
+    <string name="mi_content_description_skip">Skip</string>
+    <string name="mi_label_button_cta">Get started</string>
+    <string name="miui_settings_instructions">Please enable all required permissions to ensure the app works</string>
+    <string name="miui_special_settings_desc">On Xiaomi, Redmi, and Poco devices, you may need to enable additional permissions such as: (Allow pop-up windows while running in the background), (Auto start), and (Display on lock screen) and disable the (Restrict background apps) option.</string>
+    <string name="miui_special_settings_title">MIUI Special Settings</string>
+    <string name="modified_sections">🔄 Sections added after modification due to similarity: %1$d</string>
+    <string name="monthly_premium">Monthly subscription</string>
+    <string name="most_popular">Most popular</string>
+    <string name="move_to_another_section">Move to Another Section</string>
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_button_collapsed_content_description">Collapsed</string>
+    <string name="mtrl_button_expanded_content_description">Expanded</string>
+    <string name="mtrl_checkbox_button_icon_path_checked">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
+    <string name="mtrl_checkbox_button_icon_path_group_name">icon</string>
+    <string name="mtrl_checkbox_button_icon_path_indeterminate">M13.4,15 11,15 11,17 13.4,17 21,17 21,15z</string>
+    <string name="mtrl_checkbox_button_icon_path_name">icon path</string>
+    <string name="mtrl_checkbox_button_path_checked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z</string>
+    <string name="mtrl_checkbox_button_path_group_name">button</string>
+    <string name="mtrl_checkbox_button_path_name">button path</string>
+    <string name="mtrl_checkbox_button_path_unchecked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z M23,23H9V9h14V23z</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Partially checked</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+    <string name="mtrl_picker_announce_current_range_selection">Start date selection: %1$s – End date selection: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">none</string>
+    <string name="mtrl_picker_cancel">Cancel</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">End date %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navigate to current year %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$d</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_start_date_description">Start date %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">Today %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Switch to Calendar view</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Switch to year view</string>
+    <string name="mtrl_picker_toggled_to_day_selection">Switched to Calendar view</string>
+    <string name="mtrl_picker_toggled_to_year_selection">Switched to year view</string>
+    <string name="mtrl_switch_thumb_group_name">circle_group</string>
+    <string name="mtrl_switch_thumb_path_checked">M4,16 A12,12 0 0,1 16,4 H16 A12,12 0 0,1 16,28 H16 A12,12 0 0,1 4,16</string>
+    <string name="mtrl_switch_thumb_path_morphing">M0,16 A11,11 0 0,1 11,5 H21 A11,11 0 0,1 21,27 H11 A11,11 0 0,1 0,16</string>
+    <string name="mtrl_switch_thumb_path_name">circle</string>
+    <string name="mtrl_switch_thumb_path_pressed">M2,16 A14,14 0 0,1 16,2 H16 A14,14 0 0,1 16,30 H16 A14,14 0 0,1 2,16</string>
+    <string name="mtrl_switch_thumb_path_unchecked">M8,16 A8,8 0 0,1 16,8 H16 A8,8 0 0,1 16,24 H16 A8,8 0 0,1 8,16</string>
+    <string name="mtrl_switch_track_decoration_path">M1,16 A15,15 0 0,1 16,1 H36 A15,15 0 0,1 36,31 H16 A15,15 0 0,1 1,16</string>
+    <string name="mtrl_switch_track_path">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
+    <string name="mtrl_timepicker_cancel">Cancel</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="my_app">Our Apps</string>
+    <string name="native_body">Body</string>
+    <string name="native_headline">Headline</string>
+    <string name="native_media_view">Media View</string>
+    <string name="nav_rail_collapsed_a11y_label">Collapsed</string>
+    <string name="nav_rail_expanded_a11y_label">Expanded</string>
+    <string name="new_notes">✅ New notes: %1$d</string>
+    <string name="new_sections">✅ New sections: %1$d</string>
+    <string name="newline_separator">New line (\\n)</string>
+    <string name="newline_with_dashes">New line with dashes (\\n-----\\n)</string>
+    <string name="newly_created_sections">Newly created sections:</string>
+    <string name="no_email">No email</string>
+    <string name="no_name">No name</string>
+    <string name="no_result">No Results</string>
+    <string name="no_results_for_filter">No results found for this filter</string>
+    <string name="no_results_in_category">No results found in this category</string>
+    <string name="not_set">Not set</string>
+    <string name="not_supported_file">Error: Unsupported File</string>
+    <string name="note_for_new_line_in_custom_text">⚠️ Note: If you want to place each selected sentence on a new line, press (Enter) before and after the separator text.</string>
+    <string name="notes_section">Notes:</string>
+    <string name="notification_access_denied">Notification access not granted</string>
+    <string name="notification_access_granted">Notification access granted successfully</string>
+    <string name="notification_benefit_background_work">Work in the background with high efficiency and battery saving 🔋</string>
+    <string name="notification_benefit_important_alerts">Receive important alerts for updates and new features 🔔</string>
+    <string name="notification_benefit_instant_actions">Execute operations with one click: add, browse, AI-process 🎯</string>
+    <string name="notification_benefit_no_interruption">Easy access without interrupting your current work or closing other apps 📱</string>
+    <string name="notification_benefit_quick_access">Instant access to all functions from anywhere on your phone ⚡</string>
+    <string name="notification_benefits_title">"What you'll get:"</string>
+    <string name="notification_channel_description">General notification channel for the app</string>
+    <string name="notification_channel_name">General app notifications</string>
+    <string name="notification_feature_conclusion">"Don't miss this amazing experience! Enable notifications now and enjoy full control over ClipZ from anywhere on your phone. Managing texts and notes will become faster and easier than ever!"</string>
+    <string name="notification_feature_intro">"Discover the power of quick access from the notification bar! 🚀
+Imagine controlling all ClipZ functions directly from the notification bar without opening the app. This feature will completely change the way you use the app!"</string>
+    <string name="notification_permission_denied">Notification permission is required for the app to work correctly</string>
+    <string name="notification_permission_desc">We need this permission to display a permanent notification for easy access to app functions and to keep services running in the background, which prevents the system from stopping them.</string>
+    <string name="notification_permission_granted">Notification permission granted</string>
+    <string name="notification_permission_title">Notification Permission</string>
+    <string name="notification_preview_note">💡 You can try the buttons above now to see how the feature will work! Click on any button to preview its function.</string>
+    <string name="notifications_permission_confirm">Allow</string>
+    <string name="notifications_permission_decline">"Don't allow"</string>
+    <string name="notifications_permission_title">Allow app to send you notifications?</string>
+    <string name="offline_dialog_image_description">Icon</string>
+    <string name="offline_dialog_text">"Thanks for your interest.
+We will share more once you're back online."</string>
+    <string name="offline_notification_title">"You are back online! Let's pick up where we left off"</string>
+    <string name="offline_notification_title_with_advertiser">You are back online! Continue learning about %s</string>
+    <string name="offline_opt_in_confirm">OK</string>
+    <string name="offline_opt_in_decline">No thanks</string>
+    <string name="offline_opt_in_message">"We'll send you a notification with a link to the advertiser site."</string>
+    <string name="offline_opt_in_title">"Open ad when you're back online."</string>
+    <string name="ok">OK</string>
+    <string name="ok_and_know_that">Okay, I Understand</string>
+    <string name="only_update">Only update</string>
+    <string name="open_in_new_window">Open in New Window</string>
+    <string name="open_in_popup">Open in pop-up window</string>
+    <string name="open_in_split">Open in split screen</string>
+    <string name="open_recent_apps_manually">Press the Recent Apps button (□, ☰, etc.) and look for the lock icon 🔒 next to the app</string>
+    <string name="opne">Unlock</string>
+    <string name="original_text">Original text</string>
+    <string name="other">Other</string>
+    <string name="overlay_permission_denied">Overlay permission not granted</string>
+    <string name="overlay_permission_granted">Overlay permission granted successfully</string>
+    <string name="overlay_position_bottom">Bottom of screen</string>
+    <string name="overlay_position_custom">Custom</string>
+    <string name="overlay_position_title">Copied text overlay position</string>
+    <string name="overlay_position_title_dialog">Move the slider to set the position. The minimum value is the bottom, and the maximum value is the top of the screen.</string>
+    <string name="overlay_position_top">Top of screen</string>
+    <string name="password">Password</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permissions_description">"To use all the app's features, please grant the following permissions:"</string>
+    <string name="pick_clare">Clear the text field</string>
+    <string name="pick_extract_text">Extract text from the field</string>
+    <string name="pick_set_from_clipboard">Paste the last copied text</string>
+    <string name="pick_set_last_clipboard_item">Paste the last saved text in the app</string>
+    <string name="pick_show_actions">Show full options to select the operation</string>
+    <string name="pick_show_clipboard_items">Show saved items</string>
+    <string name="pick_text_type_title"><b><big>When dropping the main bubble on a text field, do the following</big></b></string>
+    <string name="pin_text">Pin Text</string>
+    <string name="play_install_issue_message">Are you facing an issue while trying to upgrade to ClipZ Pro? To resolve this, please install the app from Google Play by tapping the button below. You will then be able to upgrade normally. Note: Your data will remain intact when updating directly from Google Play. However, it is recommended to create a backup from the app settings page as a precaution.</string>
+    <string name="play_install_issue_open_play">Install from Google Play</string>
+    <string name="play_install_issue_title">Upgrade Problem</string>
+    <string name="please_accespt_to_contenue">Please Agree to Continue</string>
+    <string name="please_enbale_app_show_over_other_app">Please enable the app to appear over other apps in phone settings.</string>
+    <string name="please_enbale_auto_start">Allow the app to start automatically after device restart to ensure service continuity without needing to open it manually.</string>
+    <string name="please_enbale_show_over_app">Please enable the app to appear over other apps.</string>
+    <string name="please_enbale_show_over_app_xioami">Please enable the app to appear over other apps in the background and while running.</string>
+    <string name="please_enter_separator">Please enter a separator text</string>
+    <string name="please_grant_all_permissions">Please grant all the necessary permissions.</string>
+    <string name="please_input_name_section">Please Enter a Section Name</string>
+    <string name="please_input_password">Please Enter the Password</string>
+    <string name="please_input_password_for_temporary2">Enter the new password, or cancel protection using the button at the bottom of the screen.</string>
+    <string name="please_rate_app">"Thank you!
+Please rate the app."</string>
+    <string name="polite_rewrite">Polite</string>
+    <string name="power_management">Power Management</string>
+    <string name="preference_copied">\"%1$s\" copied to clipboard.</string>
+    <string name="premium">Premium</string>
+    <string name="preview_video">Watch Video</string>
+    <string name="primary_bubble">Primary Floating Icon</string>
+    <string name="primary_bubble_title"><b><big>Primary Floating Bubble</big></b><br/>"
+"<small>Turn on the floating bubble for professional tasks to appear over any app.</small></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="pro_features_how_to_use"><b><big>Explore Pro Features</big></b><br/>"
+"<small>"Check out all the Pro features and learn about the extraordinary capabilities you'll gain when you enable them."</small></string>
+    <string name="processed_text">Processed text</string>
+    <string name="processing_data">Processing data…</string>
+    <string name="processing_error">An error occurred while processing the text</string>
+    <string name="processing_time">Processing time %s:ms</string>
+    <string name="professional_features">Professional Features</string>
+    <string name="professional_features_end">Enable professional features now and enjoy a whole new experience in managing texts and notes!</string>
+    <string name="professional_features_intro">Discover the full potential of the app! 80% of the features are still inactive—activate the professional features in the app settings for a complete and premium experience.</string>
+    <string name="professional_features_privacy_title">Privacy and Security Assurances:</string>
+    <string name="professional_features_title">Features you will get:</string>
+    <string name="professional_rewrite">Professional</string>
+    <string name="project_id">clipboard-b09f7</string>
+    <string name="prompt_instruction">Processing prompt</string>
+    <string name="prompt_note">Note: The title is only required if you want to save the prompt for later use</string>
+    <string name="prompt_required">Prompt is required</string>
+    <string name="prompt_title">Prompt title (optional for execution, required for saving)</string>
+    <string name="prompt_too_long">Prompt is too long (max %s characters)</string>
+    <string name="prompt_too_short">Prompt is too short (min %s characters)</string>
+    <string name="punctuation_fix">Punctuation correction</string>
+    <string name="quick_paste">Quick Paste</string>
+    <string name="rationale_ask">This app may not work correctly without the requested permissions.</string>
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="re_enable_accessibility_service">"It seems you previously enabled the app's accessibility service, but its functions have stopped working. This might be because your phone's operating system forcefully stopped the app, or an error occurred during runtime, leading to the deactivation of the accessibility permission.
+
+Note: On some phones, the permission might appear enabled in the system settings, but it is actually inactive, and the professional features won't work for you.
+
+To solve the problem and re-enable professional features:
+1. Go to the phone's system Accessibility settings.
+2. Deactivate the app's permission (Turn off the service).
+3. Return to the app.
+4. Go to Accessibility settings again.
+5. Activate the app's permission once more (Turn on the service).
+6. Return to the app.
+
+Repeat these steps more than once to ensure the permission is genuinely granted and appears as active within the app, so the professional features work again.
+
+Important Notes:
+• Some phones never re-grant the permission if you don't return to the app between each deactivation and activation step.
+• Make sure to remove any restrictions or blocks on the app's power/battery usage, as these restrictions cause the system to automatically stop the app from working."</string>
+    <string name="regect_background_processor">Remove battery saver restrictions to allow the app to run in the background.</string>
+    <string name="replace">Replace</string>
+    <string name="replace_first">Replace Only the First Occurrence</string>
+    <string name="replcae">Replace</string>
+    <string name="report_error"><b><big>Report a Problem</big></b><br/>"
+"<small>Let us know about any problem you face to help you solve it quickly.</small></string>
+    <string name="report_error_title">Report a Problem</string>
+    <string name="required_permissions_title">Required Permissions</string>
+    <string name="reset_temp_texts_password_title"><b><big>Reset Password for Temporary Texts</big></b><br/>"
+"<small>Use this option if you forget the protection password.<br/>"
+"<font color="#D32F2F"><b>⚠️ All temporary texts will be permanently deleted!</b></font></small></string>
+    <string name="rest">Reset</string>
+    <string name="restore_icon_dialog_settings">To undo, go to app settings and select Customize the Primary Bubble.</string>
+    <string name="rewrite">Rewrite</string>
+    <string name="right_position">Right side</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="save">Save</string>
+    <string name="save_and_execute">Save and execute</string>
+    <string name="saved_custom_separator">Previously saved text</string>
+    <string name="saved_prompts">Saved prompts</string>
+    <string name="scroll_scanner_label">Scroll and Extract</string>
+    <string name="search">Search</string>
+    <string name="search_about_any_offers">Search for Saved Text</string>
+    <string name="search_about_tempolary_text">Search in the copied text history</string>
+    <string name="search_about_text">Find Your Text</string>
+    <string name="search_empty_message">Type to search your clips by title or content or filter by date</string>
+    <string name="search_empty_title">Start Searching</string>
+    <string name="search_hint">Search your clips…</string>
+    <string name="search_menu_title">Search</string>
+    <string name="search_results_count">%d results found</string>
+    <string name="searchbar_scrolling_view_behavior">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
+    <string name="searchview_clear_text_content_description">Clear text</string>
+    <string name="searchview_navigation_content_description">Back</string>
+    <string name="second_note">I’m ClipZ, here to help you save and browse your notes anytime, anywhere.</string>
+    <string name="section_name">Section Name</string>
+    <string name="section_password">Section Password</string>
+    <string name="sections">Sections</string>
+    <string name="sections_section">Sections:</string>
+    <string name="select_action">Select the operation</string>
+    <string name="select_all">Select All</string>
+    <string name="select_date_range">Select Date Range</string>
+    <string name="select_target_language">Select the target language:</string>
+    <string name="send_email">Send an Email</string>
+    <string name="send_email_via">Send email via</string>
+    <string name="send_text_to_external_description">"To enable sending texts directly to the last selected text field on your phone, activate the professional features.
+ This professional feature allows you to paste texts directly into the text field without needing to go back for additional steps."</string>
+    <string name="send_text_to_external_title">Enable Professional Feature</string>
+    <string name="setting">Settings</string>
+    <string name="share">Share</string>
+    <string name="share_ad_app"><b><big>Share Promotional Text</big></b><br/>"
+"<small>Invite friends to download the app when sharing media to other apps.</small></string>
+    <string name="share_app">Share the App</string>
+    <string name="share_app_for_friend">"ClipZ, your smart text assistant! 
+
+ ⭐️ Extract text from any app.
+ 🤖 AI translation, correction, and creative rephrasing.
+ 🫧 Floating bubble for copying, saving, and instant access.
+ 🔒 Secure and automatic saving with fingerprint or password protection.
+ ⚡ Quick access via system buttons or control center.
+ 🎯 Paste and pass text directly to any app.
+
+ ClipZ is not just a clipboard, but a complete productivity system! Try it now for free, download it via the following link"</string>
+    <string name="short_app_name">ClipZ - AI Tools</string>
+    <string name="short_summary">Short summary</string>
+    <string name="show_hide_bubble">Show/Hide main app bubble</string>
+    <string name="show_me_how">Show Me How</string>
+    <string name="show_more">Show More</string>
+    <string name="show_over_app">Appear Over Apps</string>
+    <string name="show_over_other_app">Display over other apps</string>
+    <string name="show_texts">My Notes</string>
+    <string name="shrink_text">Shrink text</string>
+    <string name="side_sheet_accessibility_pane_title">Side Sheet</string>
+    <string name="side_sheet_behavior">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="sign_in_to_contenui">Sign in to continue</string>
+    <string name="sign_in_to_google">Sign in to Google</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_out_message">Are you sure you want to sign out?</string>
+    <string name="sign_out_title">Sign out</string>
+    <string name="signin_benefits_title">What will you get?</string>
+    <string name="signin_subtitle">Sign in to get all the advanced AI features</string>
+    <string name="simple_rewrite">Simple</string>
+    <string name="skip">Skip</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="skipped_notes">⏭️ Skipped notes: %1$d</string>
+    <string name="skipped_sections">⏭️ Skipped sections: %1$d</string>
+    <string name="skipped_sections_exist">Skipped sections (already exist):</string>
+    <string name="social_rewrite">#Social Media</string>
+    <string name="space_separator">Space only</string>
+    <string name="spell_check">Spell check</string>
+    <string name="start_translation">Start translation</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop_scan_mode">Text extraction mode stopped.</string>
+    <string name="subscrip_tips">Monthly, Half yearly and Yearly subscriptions automatically renew after specific trial period as well as each subscription period. Accounts will be charged for each renewal unless subscription is cancelled.</string>
+    <string name="summarize">Summarize</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="temporary_texts">Copied text history</string>
+    <string name="text_1_option">When you long-press the system BACK button…</string>
+    <string name="text_2_option">When you long-press the system HOME button…</string>
+    <string name="text_3_option">When you long-press the system MENU/RECENT APPS button…</string>
+    <string name="text_backup"><b><big>Export Your Notes to a File</big></b><br/>"
+"<small>Export your notes to external storage.</small></string>
+    <string name="text_content">Text Content</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_enable_accessibility_description">"To activate professional features, please enable the app's accessibility services in the settings."</string>
+    <string name="text_enable_listen_to_phone_buttons"><b><big>Enable Professional Features</big></b><br/>"
+"<small>Activate this option to instantly extract text from the screen or auto-fill text fields using saved texts from the app’s clipboard. Quickly access app features (add, browse, etc.) by long-pressing system buttons (Back, Home, Recent) and auto-save copied texts. Enjoy a smart experience with advanced AI features!</small></string>
+    <string name="text_generation_description">Write a topic and we will generate a full text about it based on the text type and required length</string>
+    <string name="text_how_to_use"><b><big>How to Use the App</big></b><br/>"
+"<small>Check out our tutorial to learn how to use the app.</small></string>
+    <string name="text_in_app_purchasing"><b><big>Upgrade to ClipZ <sup><font color="#2196F3">pro</font></sup></big></b><br/>"
+"<small>Remove ads, enjoy expanded AI features daily, unlock unlimited sections, view all notes and temporary texts, enjoy faster performance, premium support, and discover even more amazing features.</small></string>
+    <string name="text_in_app_purchasing_title"><b><big>Get ClipZ <sup><font color="#FFC107">pro</font></sup></big></b></string>
+    <string name="text_length">Text length</string>
+    <string name="text_my_apps_in_google_play"><b><big>Our Apps</big></b><br/>"
+"<small>More apps on Google Play.</small></string>
+    <string name="text_notification"><b><big>Notification</big></b><br/>"
+"<small>Enable quick access in the notification bar.</small></string>
+    <string name="text_rate_app_on_google_play"><b><big>Rate Our App</big></b><br/>"
+"<small>Rate the app on Google Play to support us and help us keep improving.</small></string>
+    <string name="text_replace1">Enter the Text to Replace</string>
+    <string name="text_replace2">Enter the Replacement Text</string>
+    <string name="text_restore"><b><big>Import Your Notes from a File</big></b><br/>"
+"<small>Import your notes from external storage.</small></string>
+    <string name="text_share_app"><b><big>Share</big></b><br/>"
+"<small>Tell your friends about our app.</small></string>
+    <string name="text_snippet_label">My Notes</string>
+    <string name="text_title">Text Title</string>
+    <string name="text_to_process">Text to process</string>
+    <string name="text_to_speech">Text to Speech</string>
+    <string name="text_to_speech_start">Reading text…</string>
+    <string name="text_to_speech_stop">Stop Reading</string>
+    <string name="text_type">Text type</string>
+    <string name="text_very_larg">Text is too large!</string>
+    <string name="this_field_can_not_be_empty">This Field Cannot Be Empty</string>
+    <string name="three_note">Now you can save and browse your notes!</string>
+    <string name="title_how_to_cancel_subscrib">How to cancel the subscription</string>
+    <string name="title_required_for_save">Title is required to save the prompt</string>
+    <string name="title_settings_dialog">Permissions Required</string>
+    <string name="title_too_long">Title is too long (max %s characters)</string>
+    <string name="to_date">To</string>
+    <string name="topic_hint">Write the topic you want to generate text about…</string>
+    <string name="topic_required">Topic is required</string>
+    <string name="topic_too_long">Topic is too long (max %s characters)</string>
+    <string name="topic_too_short">Topic is too short (min %s characters)</string>
+    <string name="translate">Translate</string>
+    <string name="translation_description">Choose the language you want to translate to</string>
+    <string name="translation_note_content">The selected language will be saved as the last used language to make it easier to use in the future</string>
+    <string name="translation_note_title">Useful information</string>
+    <string name="try_again">Try again</string>
+    <string name="tts_not_available">Text-to-speech is not available on your device</string>
+    <string name="understood">Understood</string>
+    <string name="unknown">Unknown</string>
+    <string name="update_and_execute">Update and execute</string>
+    <string name="update_app">Update the app</string>
+    <string name="upgrade_benefits_title">Upgrade to ClipZ Plus+ now to:</string>
+    <string name="upgrade_call_to_action">Upgrade to ClipZ Plus+ now and unleash the full power of your smart text assistant!</string>
+    <string name="upgrade_description">Ads may be annoying, but they help our team keep improving ClipZ for you.</string>
+    <string name="upgrade_main_title">ClipZ is free for all.</string>
+    <string name="upgrade_pro">Upgrade to Pro</string>
+    <string name="use_your_fingerprint_to_access_your_backup">Use your fingerprint to access your backup.</string>
+    <string name="user_profile">Profile</string>
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+    <string name="watch_ad">Watch Ad</string>
+    <string name="watch_ad_add_section_reward"> <b>"You have a limited number of free sections to organize your saved texts 🗂️✨
+ To unlock more sections, you can watch a short ad or upgrade to ClipZ Plus+ 💙
+
+"</b>" • Unlock an extra section by watching an ad 🎥🆓
+ • Keep ClipZ free for everyone 🌍💙
+
+ "<b>"Don’t like ads?
+"</b>" • Upgrade to ClipZ Plus+ 🚀
+ • Create unlimited sections 🗂️🔓
+ • Expanded AI usage every day 🧠⚡
+ • View unlimited temporary texts 📝🔓
+ • No ads ever 🚫
+ • Faster performance and premium support 💎⚡ "</string>
+    <string name="watch_ad_ai_reward"> <b>"Using advanced AI features requires a lot of resources, and we want to keep ClipZ free for everyone 💙
+ Watching a short ad helps us cover the costs, and in return you’ll get:
+
+"</b>" • Extra daily AI usage for free 🧠⚡
+ • Keep ClipZ free for all users 🌍💙
+
+ "<b>"Don’t like ads?
+"</b>" • Upgrade to ClipZ Plus+ 🚀
+ • Expanded AI usage every day 🧠⚡
+ • Create unlimited sections 🗂️🔓
+ • View unlimited temporary texts 📝🔓
+ • No ads ever 🚫
+ • Faster performance and premium support 💎⚡ "</string>
+    <string name="watch_ad_view_temporary_text_reward"> <b>"You have a limited number of free temporary texts to view 📝✨
+ To unlock this specific temporary text, you can watch a short ad or upgrade to ClipZ Plus+ 💙
+
+"</b>" • View this temporary text by watching an ad 🎥🆓
+ • Keep ClipZ free for everyone 🌍💙
+
+ "<b>"Don’t like ads?
+"</b>" • Upgrade to ClipZ Plus+ 🚀
+ • View unlimited temporary texts 📝🔓
+ • Expanded AI usage every day 🧠⚡
+ • Create unlimited sections 🗂️🔓
+ • No ads ever 🚫
+ • Faster performance and premium support 💎⚡ "</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="watermark_label_prefix">"AdMob - "</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="whatch_ad_now">Watch Ad</string>
+    <string name="wrring">Warning</string>
+    <string name="wrriring_delete_mutable_notes">"Are you sure you want to delete %s note(s)?
+ You will not be able to undo the deletion."</string>
+    <string name="wrriring_delete_note">"Are you sure you want to delete this note?
+ You will not be able to undo the deletion."</string>
+    <string name="wrriring_delete_section">Are you sure you want to delete this section? All texts in this section will be deleted permanently and cannot be undone.</string>
+    <string name="y_position_title">Floating bubble position on the vertical axis</string>
+    <string name="yearly_premium">Annual subscription</string>
+    <string name="you_can_use_ai_feature_now">You can use AI features now</string>
+    <string name="you_need_more_one_sections">You need more than one section to move a note.</string>
+</resources>

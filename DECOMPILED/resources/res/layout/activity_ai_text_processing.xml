@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lay_parent" android:tag="layout/activity_ai_text_processing_0" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/lay_child" android:layout_width="match_parent" android:layout_height="0.0dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.material.appbar.AppBarLayout android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/lay_ad" android:layout_width="match_parent" android:layout_height="@dimen/_70sdp" android:layout_marginHorizontal="@dimen/my_app_radius">
+                <TextView android:textColor="@android:color/white" android:id="@id/text_ad" android:padding="@dimen/_4sdp" android:elevation="10.0dp" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/AdAttribution" />
+            </FrameLayout>
+            <View android:id="@id/view" android:background="@color/ai_color" android:layout_width="match_parent" android:layout_height="0.30000007dp" android:alpha="0.7" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/appbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?actionBarSize">
+                <ImageView android:id="@id/back_btn" android:background="?selectableItemBackgroundBorderless" android:layout_width="?actionBarSize" android:layout_height="match_parent" android:src="@drawable/ic_back" android:scaleType="centerInside" app:layout_constraintStart_toStartOf="parent" app:tint="@color/ai_color" />
+                <com.anas_mugally.clipboard.ActionsLayout android:layout_gravity="center" android:id="@id/actions" android:layout_width="wrap_content" android:layout_height="match_parent" app:iconTint="@color/ai_color" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toEndOf="@id/back_btn" app:menu="@menu/symbol_menu_text_ai" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="8.0dp">
+            <ImageView android:id="@id/img_open_app" android:background="@drawable/image_view_background" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_marginTop="5.0dp" android:layout_marginBottom="25.0dp" android:src="@drawable/ic_open_app" android:scaleType="center" android:contentDescription="@string/go_to_app" android:layout_marginHorizontal="8.0dp" app:layout_constraintBottom_toBottomOf="@id/lay_input_text" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/lay_input_text" app:tint="@color/colorTextView" />
+            <com.google.android.material.textfield.TextInputLayout android:theme="@style/AppTextInputLayout" android:id="@id/lay_input_text" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_marginTop="2.0dp" android:hint="@string/text_to_process" android:layout_marginHorizontal="8.0dp" app:counterEnabled="true" app:counterMaxLength="2000" app:layout_constrainedWidth="true" app:layout_constraintEnd_toStartOf="@id/img_open_app" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <com.google.android.material.textfield.TextInputEditText android:textColor="@color/ai_color" android:textColorHint="@color/card_background_color" android:id="@id/input_text" android:focusable="false" android:longClickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:maxLines="1" android:selectAllOnFocus="true" android:inputType="textMultiLine" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:id="@id/fragment_container" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

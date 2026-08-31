@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_bubble_customization_0" android:background="@color/my_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.materialswitch.MaterialSwitch android:layout_gravity="center_vertical" android:id="@id/primaryBubbleSwitch" android:padding="8.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/primary_bubble_title" />
+            <View android:background="?colorOutline" android:layout_width="match_parent" android:layout_height="1.0dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginVertical="16.0dp" android:paddingHorizontal="8.0dp">
+                    <com.google.android.material.textview.MaterialTextView android:textAppearance="?textAppearanceBody2" android:textColor="?colorOnSurface" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:text="@string/bubble_size_title" />
+                    <com.google.android.material.slider.Slider android:id="@id/bubbleSizeSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="1.0" android:valueFrom="30" android:valueTo="70" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:paddingHorizontal="8.0dp">
+                    <com.google.android.material.textview.MaterialTextView android:textAppearance="?textAppearanceBody2" android:textColor="?colorOnSurface" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:text="@string/bubble_alpha_title" />
+                    <com.google.android.material.slider.Slider android:id="@id/bubbleAlphaSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="1.0" android:valueFrom="1" android:valueTo="100" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:paddingHorizontal="8.0dp">
+                    <com.google.android.material.textview.MaterialTextView android:textAppearance="?textAppearanceBody2" android:textColor="?colorOnSurface" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:text="@string/bubble_in_edge_title" />
+                    <com.google.android.material.slider.Slider android:id="@id/bubbleInEdgeSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="1.0" android:valueFrom="0" android:valueTo="80" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:paddingHorizontal="8.0dp">
+                    <com.google.android.material.textview.MaterialTextView android:textAppearance="?textAppearanceBody2" android:textColor="?colorOnSurface" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:text="@string/y_position_title" />
+                    <com.google.android.material.slider.Slider android:id="@id/yPositionSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:stepSize="1.0" android:valueFrom="1" android:valueTo="100" />
+                </LinearLayout>
+                <View android:background="?colorOutline" android:layout_width="match_parent" android:layout_height="1.0dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="60.0dp" android:layout_marginVertical="16.0dp" android:paddingHorizontal="8.0dp">
+                    <com.google.android.material.textview.MaterialTextView android:textAppearance="?textAppearanceBody2" android:textColor="?colorOnSurface" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bubble_edge_location" />
+                    <RadioGroup android:orientation="horizontal" android:id="@id/bubbleEdgeLocationRadioGroup" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/radio_left" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/left_postition" android:layout_weight="1.0" />
+                        <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/radio_right" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/right_position" android:layout_weight="1.0" />
+                    </RadioGroup>
+                </LinearLayout>
+                <View android:background="?colorOutline" android:layout_width="match_parent" android:layout_height="1.0dp" android:alpha="0.3" android:layout_marginVertical="3.0dp" />
+                <com.google.android.material.materialswitch.MaterialSwitch android:textAppearance="?textAppearanceBody2" android:textColor="@color/example" android:orientation="vertical" android:id="@id/changeBubbleLocationByTucheIt" android:background="?selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" android:minHeight="60.0dp" android:text="@string/bubble_change_location_dialog_enable" android:layout_marginVertical="16.0dp" android:paddingHorizontal="8.0dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

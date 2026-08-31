@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/view_symbol_text_extraction_mutable_0" android:background="@color/my_background" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center_horizontal" android:background="@drawable/drag_handle_background" android:layout_width="60.0dp" android:layout_height="10.0dp" android:layout_marginVertical="3.0dp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@color/my_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.anas_mugally.clipboard.ActionsLayout android:layout_gravity="center" android:id="@id/actions" android:layout_width="wrap_content" android:layout_height="?actionBarSize" app:menu="@menu/symbol_menu_text_mutable" />
+    </LinearLayout>
+</LinearLayout>

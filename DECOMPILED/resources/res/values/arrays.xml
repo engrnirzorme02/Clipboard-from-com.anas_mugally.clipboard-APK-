@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="colors">
+        <item>#FF0000</item>
+        <item>#009EFF</item>
+        <item>#ffffff</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <array name="icons">
+        <item>@drawable/ic_whatsapp</item>
+        <item>@drawable/ic_facebook</item>
+        <item>@drawable/ic_telegram</item>
+    </array>
+    <string-array name="keep_duration_options">
+        <item>One day</item>
+        <item>3 days</item>
+        <item>One week</item>
+        <item>One month</item>
+        <item>6 months</item>
+        <item>One year</item>
+        <item>Always (do not delete)</item>
+    </string-array>
+    <string-array name="op_type_long_pressed">
+        <item>None (Disabled)</item>
+        <item>Add New Note</item>
+        <item>Browse Your Notes</item>
+        <item>Browse Your Temporary Texts</item>
+        <item>AI Text Processing</item>
+        <item>Show/Hide the Main App Bubble</item>
+        <item>Extract Text from The Screen</item>
+        <item>Extract Text From The Screen While Scrolling</item>
+    </string-array>
+    <string-array name="pick_options">
+        <item>@string/pick_clare</item>
+        <item>@string/pick_extract_text</item>
+        <item>@string/pick_show_clipboard_items</item>
+        <item>@string/ai_text_processing</item>
+        <item>@string/pick_set_last_clipboard_item</item>
+        <item>@string/pick_set_from_clipboard</item>
+    </string-array>
+    <string-array name="pick_options_for_setting">
+        <item>@string/pick_show_actions</item>
+        <item>@string/pick_clare</item>
+        <item>@string/pick_extract_text</item>
+        <item>@string/pick_show_clipboard_items</item>
+        <item>@string/ai_text_processing</item>
+        <item>@string/pick_set_last_clipboard_item</item>
+        <item>@string/pick_set_from_clipboard</item>
+    </string-array>
+    <string-array name="professional_features_list">
+        <item>Extract text from any app or website</item>
+        <item>Automatically save all texts you copy from any app</item>
+        <item>Show a floating element at the top of the screen right after copying</item>
+        <item>Perform different actions (add, browse, show/hide bubble) by long pressing the system buttons</item>
+        <item>Create a complete history of copied texts</item>
+        <item>Quickly fill text fields from your notes</item>
+        <item>Preview and edit text before saving or sharing</item>
+        <item>Scrolling and extraction for multiple texts</item>
+        <item>Floating icon that appears above all apps</item>
+        <item>Quick access to all app functions from anywhere</item>
+        <item>Fill text fields directly from your saved notes</item>
+        <item>Insert texts into the last selected field</item>
+        <item>Quick options to manage the copied text</item>
+        <item>Floating icon automatically appears when the keyboard opens</item>
+        <item>Save time and effort in copy-paste operations</item>
+    </string-array>
+    <string-array name="professional_features_privacy_list">
+        <item>No personal data is collected</item>
+        <item>All texts remain stored locally on your device</item>
+        <item>No information is sent over the internet</item>
+        <item>The service operates with full safety and transparency</item>
+    </string-array>
+    <string-array name="text_lengths">
+        <item>Short (up to ~100 words or 500 characters)</item>
+        <item>Medium (100 to 250 words or 500 – 1500 characters)</item>
+        <item>Long (250 to 400 words or 1500 – 2500 characters)</item>
+    </string-array>
+    <string-array name="text_lengths_api">
+        <item>Short (up to ~100 words or 500 characters)</item>
+        <item>Medium (100 to 250 words or 500 - 1500 characters)</item>
+        <item>Long (250 to 400 words or 1500 - 2500 characters)</item>
+    </string-array>
+    <string-array name="text_types">
+        <item>Letter</item>
+        <item>Story</item>
+        <item>Social Media Post</item>
+        <item>Emoji</item>
+        <item>Poem</item>
+        <item>Email</item>
+        <item>Presentation</item>
+        <item>Product Description</item>
+        <item>Review</item>
+        <item>Blog Post</item>
+        <item>Speech</item>
+        <item>Article</item>
+        <item>Essay</item>
+        <item>Report</item>
+        <item>News</item>
+        <item>Tutorial</item>
+    </string-array>
+    <string-array name="text_types_api">
+        <item>Letter</item>
+        <item>Story</item>
+        <item>Social Media Post</item>
+        <item>Emoji</item>
+        <item>Poem</item>
+        <item>Email</item>
+        <item>Presentation</item>
+        <item>Product Description</item>
+        <item>Review</item>
+        <item>Blog Post</item>
+        <item>Speech</item>
+        <item>Article</item>
+        <item>Essay</item>
+        <item>Report</item>
+        <item>News</item>
+        <item>Tutorial</item>
+    </string-array>
+</resources>

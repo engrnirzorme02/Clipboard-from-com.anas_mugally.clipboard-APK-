@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/round_add_circle_outline_24" android:id="@id/add_note" android:title="@string/add" app:showAsAction="always" />
+    <item android:icon="@drawable/outline_save_24" android:id="@id/save" android:title="@string/save" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_copy" android:id="@id/copy" android:title="@string/copy" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_magical_wand" android:id="@id/send_text" android:title="@string/magic_wand" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_translate" android:id="@id/translate" android:title="@string/translate" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share_black" android:id="@id/more" android:title="@string/share" app:showAsAction="always" />
+</menu>

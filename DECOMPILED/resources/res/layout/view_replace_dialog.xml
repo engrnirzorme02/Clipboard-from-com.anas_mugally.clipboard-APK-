@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/view_replace_dialog_0" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/card" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="10.0dp">
+        <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_coin" android:background="@color/my_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" android:paddingHorizontal="10.0dp" android:paddingVertical="5.0dp">
+                <com.google.android.material.textfield.TextInputLayout android:theme="@style/AppTextInputLayout" android:id="@id/lay_input_text_replaced" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/text_replace1">
+                    <com.google.android.material.textfield.TextInputEditText android:textSize="18.0sp" android:textColor="@color/colorTextView" android:id="@id/input_text_replaced" android:layout_width="match_parent" android:layout_height="wrap_content" android:selectAllOnFocus="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout android:theme="@style/AppTextInputLayout" android:id="@id/lay_input_text_replaced_to" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/text_replace2" android:layout_below="@id/text2" android:layout_centerHorizontal="true">
+                    <com.google.android.material.textfield.TextInputEditText android:textSize="18.0sp" android:textColor="@color/colorTextView" android:id="@id/input_text_replaced_to" android:layout_width="match_parent" android:layout_height="wrap_content" android:selectAllOnFocus="true" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <CheckBox android:textColor="@color/colorTextView" android:id="@id/checkbox_replace_only_first" android:padding="@dimen/_5sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/replace_first" />
+                <Button android:textColor="@color/white" android:layout_gravity="center" android:id="@id/btn_replace_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/_5sdp" android:text="@string/replcae" style="@style/MyButtonStyle" />
+                <Button android:textColor="@color/white" android:layout_gravity="center" android:id="@id/btnClose" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/close" android:backgroundTint="@android:color/holo_red_light" android:layout_marginHorizontal="@dimen/_5sdp" style="@style/MyButtonStyle" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

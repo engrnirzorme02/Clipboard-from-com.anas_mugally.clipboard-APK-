@@ -1,0 +1,30 @@
+package com.google.android.gms.ads.internal.client;
+
+import android.os.IBinder;
+import android.os.IInterface;
+import android.os.Parcel;
+import com.google.android.gms.dynamic.InterfaceC3772a;
+import com.google.android.gms.dynamite.descriptors.com.google.android.gms.ads.dynamite.ModuleDescriptor;
+import com.google.android.gms.internal.ads.zzaxz;
+import com.google.android.gms.internal.ads.zzayb;
+import com.google.android.gms.internal.ads.zzbox;
+
+/* JADX INFO: renamed from: com.google.android.gms.ads.internal.client.l0 */
+/* JADX INFO: loaded from: classes.dex */
+public final class C3363l0 extends zzaxz implements IInterface {
+    C3363l0(IBinder iBinder) {
+        super(iBinder, "com.google.android.gms.ads.internal.client.IAdPreloaderCreator");
+    }
+
+    /* JADX INFO: renamed from: L0 */
+    public final IBinder m17241L0(InterfaceC3772a interfaceC3772a, zzbox zzboxVar, int i7) {
+        Parcel parcelZza = zza();
+        zzayb.zze(parcelZza, interfaceC3772a);
+        zzayb.zze(parcelZza, zzboxVar);
+        parcelZza.writeInt(ModuleDescriptor.MODULE_VERSION);
+        Parcel parcelZzde = zzde(1, parcelZza);
+        IBinder strongBinder = parcelZzde.readStrongBinder();
+        parcelZzde.recycle();
+        return strongBinder;
+    }
+}

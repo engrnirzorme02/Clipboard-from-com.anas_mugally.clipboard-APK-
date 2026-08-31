@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ad_background">#3c3c3c</color>
+    <color name="ai_color">#e0e0e0</color>
+    <color name="ai_gradient_center">#34495e</color>
+    <color name="ai_gradient_end">#1a252f</color>
+    <color name="ai_gradient_start">#2c3e50</color>
+    <color name="background_color">#121212</color>
+    <color name="card_background_color">#661e1e1e</color>
+    <color name="colorItemNotification">#ffffff</color>
+    <color name="colorPopupStrok">#ffffff</color>
+    <color name="colorTextView">#ffffff</color>
+    <color name="divider_color">#333333</color>
+    <color name="gray_dark">#ffffff</color>
+    <color name="gray_light">#2c2c2c</color>
+    <color name="gray_medium">#757575</color>
+    <color name="intro_slide_1">#1565c0</color>
+    <color name="intro_slide_2">#1976d2</color>
+    <color name="intro_slide_3">#1e88e5</color>
+    <color name="intro_slide_4">#00acc1</color>
+    <color name="intro_slide_5">#00897b</color>
+    <color name="intro_slide_6">#388e3c</color>
+    <color name="intro_slide_7">#689f38</color>
+    <color name="intro_slide_8">#37474f</color>
+    <color name="light_blue">#1a1a1a</color>
+    <color name="main_background">#000000</color>
+    <color name="my_background">#323232</color>
+    <color name="primary_blue">#64b5f6</color>
+    <color name="purple_200">#242424</color>
+    <color name="purple_500">#242424</color>
+    <color name="purple_700">#242424</color>
+    <color name="selectedChipColor">#3c3c3c</color>
+    <color name="tabBottomColor">@color/main_app_color</color>
+    <color name="title_text_color">#ffffff</color>
+</resources>

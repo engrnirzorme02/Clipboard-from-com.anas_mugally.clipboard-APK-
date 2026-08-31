@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dp" app:cardBackgroundColor="@color/my_background" app:cardCornerRadius="10.0dp" app:cardElevation="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/popup_menu_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="140.0dp" />
+</androidx.cardview.widget.CardView>

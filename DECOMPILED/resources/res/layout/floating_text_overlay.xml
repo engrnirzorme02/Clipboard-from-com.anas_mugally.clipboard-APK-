@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/floating_root" android:background="@android:color/transparent" android:layout_width="300.0dp" android:layout_height="400.0dp" android:elevation="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end|bottom" android:id="@id/resize_handle_bottom_right" android:layout_width="32.0dp" android:layout_height="32.0dp" android:src="@drawable/ic_resize_handle" android:scaleType="fitXY" android:contentDescription="@string/pin_text" android:elevation="5.0dp" />
+    <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="4.0dp" app:cardBackgroundColor="@color/my_background" app:cardCornerRadius="12.0dp" app:cardElevation="4.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header_layout" android:background="@color/purple_200" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="50.0dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/open_with_24px" android:tint="@color/white" android:layout_marginEnd="8.0dp" app:tint="@color/white" />
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/pin_text" android:lines="1" android:layout_weight="1.0" />
+                <ImageButton android:id="@id/btn_close" android:background="?selectableItemBackgroundBorderless" android:layout_width="36.0dp" android:layout_height="36.0dp" android:src="@drawable/ic_clear" android:contentDescription="@string/close" app:tint="@color/white" />
+            </LinearLayout>
+            <ScrollView android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="1.0" android:layout_marginHorizontal="8.0dp">
+                <TextView android:textSize="16.0sp" android:textColor="@color/colorTextView" android:id="@id/floating_text_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="true" />
+            </ScrollView>
+            <com.anas_mugally.clipboard.ActionsLayout android:id="@id/floating_actions_layout" android:background="@color/my_background" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:layout_marginEnd="30.0dp" app:menu="@menu/symbol_menu_floating_text_overlay" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_dialog_rate_app_0" android:paddingTop="10.0dp" android:paddingBottom="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/image_logo" android:padding="1.0dp" android:layout_width="80.0dp" android:layout_height="80.0dp" android:layout_marginBottom="-40.0dp" android:src="@drawable/ic_rate_app_yellow" android:layout_centerHorizontal="true" android:elevation="3.0dp" />
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/image_logo" app:cardBackgroundColor="@color/my_background" app:cardCornerRadius="30.0dp" app:strokeWidth="0.0dp">
+        <RelativeLayout android:paddingTop="40.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:gravity="center" android:id="@id/show_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:text="@string/how_many_starts" />
+            <RatingBar android:id="@id/like" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:layout_below="@id/show_text" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

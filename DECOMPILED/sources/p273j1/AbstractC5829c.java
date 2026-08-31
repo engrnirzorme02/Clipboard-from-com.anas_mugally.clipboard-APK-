@@ -1,0 +1,6 @@
+package p273j1;
+
+/* JADX INFO: renamed from: j1.c */
+/* JADX INFO: loaded from: classes.dex */
+public abstract /* synthetic */ class AbstractC5829c {
+}

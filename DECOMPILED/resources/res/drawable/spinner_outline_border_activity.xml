@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape>
+                    <stroke android:width="2.0dp" android:color="@color/main_app_color" />
+                    <corners android:radius="@dimen/my_app_radius" />
+                </shape>
+            </item>
+            <item android:gravity="end|center" android:drawable="@drawable/round_arrow_drop_down_24_blue" android:right="8.0dp" />
+        </layer-list>
+    </item>
+</selector>

@@ -1,0 +1,282 @@
+METADATA
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" package="com.anas_mugally.clipboard" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:cantSaveState="false" android:extractNativeLibs="false" android:forceDarkAllowed="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.anas_mugally.clipboard.MyApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.ClipboardTextSaved" android:usesCleartextTraffic="true">
+
+PERMISSIONS
+"START_SCANNER"
+"android.accessibilityservice"
+"android.accessibilityservice.AccessibilityService"
+"android.ext.adservices"
+"android.intent.action.ACTION_POWER_CONNECTED"
+"android.intent.action.ACTION_POWER_DISCONNECTED"
+"android.intent.action.BATTERY_LOW"
+"android.intent.action.BATTERY_OKAY"
+"android.intent.action.BOOT_COMPLETED"
+"android.intent.action.DEVICE_STORAGE_LOW"
+"android.intent.action.DEVICE_STORAGE_OK"
+"android.intent.action.DIAL"
+"android.intent.action.EDIT"
+"android.intent.action.INSERT"
+"android.intent.action.MAIN"
+"android.intent.action.MY_PACKAGE_REPLACED"
+"android.intent.action.PROCESS_TEXT"
+"android.intent.action.SEND"
+"android.intent.action.TIMEZONE_CHANGED"
+"android.intent.action.TIME_SET"
+"android.intent.action.USER_PRESENT"
+"android.intent.action.VIEW"
+"android.intent.category.BROWSABLE"
+"android.intent.category.DEFAULT"
+"android.intent.category.LAUNCHER"
+"android.net.conn.CONNECTIVITY_CHANGE"
+"android.permission.ACCESS_ADSERVICES_AD_ID"
+"android.permission.ACCESS_ADSERVICES_ATTRIBUTION"
+"android.permission.ACCESS_ADSERVICES_TOPICS"
+"android.permission.ACCESS_NETWORK_STATE"
+"android.permission.BIND_ACCESSIBILITY_SERVICE"
+"android.permission.FOREGROUND_SERVICE"
+"android.permission.INTERNET"
+"android.permission.POST_NOTIFICATIONS"
+"android.permission.READ_EXTERNAL_STORAGE"
+"android.permission.RECEIVE_BOOT_COMPLETED"
+"android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND"
+"android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND"
+"android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+"android.permission.SYSTEM_ALERT_WINDOW"
+"android.permission.SYSTEM_OVERLAY_WINDOW"
+"android.permission.USE_BIOMETRIC"
+"android.permission.USE_FINGERPRINT"
+"android.permission.WAKE_LOCK"
+"android.permission.WRITE_EXTERNAL_STORAGE"
+"android.service.quicksettings.action.QS_TILE"
+"android.support.FILE_PROVIDER_PATHS"
+"android.support.customtabs.action.CustomTabsService"
+"androidx.core.content.FileProvider"
+"androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+"androidx.credentials.playservices.CredentialProviderMetadataHolder"
+"androidx.credentials.playservices.HiddenActivity"
+"androidx.credentials.playservices.IdentityCredentialApiHiddenActivity"
+"androidx.emoji2.text.EmojiCompatInitializer"
+"androidx.lifecycle.ProcessLifecycleInitializer"
+"androidx.profileinstaller.ProfileInstallReceiver"
+"androidx.profileinstaller.ProfileInstallerInitializer"
+"androidx.profileinstaller.action.BENCHMARK_OPERATION"
+"androidx.profileinstaller.action.INSTALL_PROFILE"
+"androidx.profileinstaller.action.SAVE_PROFILE"
+"androidx.profileinstaller.action.SKIP_FILE"
+"androidx.room.MultiInstanceInvalidationService"
+"androidx.startup.InitializationProvider"
+"androidx.window.extensions"
+"androidx.window.sidecar"
+"androidx.work.WorkManagerInitializer"
+"androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+"androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+"androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+"androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+"androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+"androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+"androidx.work.impl.background.systemalarm.RescheduleReceiver"
+"androidx.work.impl.background.systemalarm.SystemAlarmService"
+"androidx.work.impl.background.systemalarm.UpdateProxies"
+"androidx.work.impl.background.systemjob.SystemJobService"
+"androidx.work.impl.diagnostics.DiagnosticsReceiver"
+"androidx.work.impl.foreground.SystemForegroundService"
+"androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+"backend:com.google.android.datatransport.cct.CctBackendFactory"
+"com.anas_mugally.clipboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+"com.anas_mugally.clipboard.MyApplication"
+"com.anas_mugally.clipboard.broadcastReceiver.ScannerReceiver"
+"com.anas_mugally.clipboard.broadcastReceiver.ShowOrHidePrimaryBubbleReceiver"
+"com.anas_mugally.clipboard.service.AddTextTileService"
+"com.anas_mugally.clipboard.service.AiTextProcessingTileService"
+"com.anas_mugally.clipboard.service.BrowserTemporaryTextTileService"
+"com.anas_mugally.clipboard.service.BrowserTextTileService"
+"com.anas_mugally.clipboard.service.ExtractTextScannerTileService"
+"com.anas_mugally.clipboard.service.ExtractTextWhileScrollingScannerTileService"
+"com.anas_mugally.clipboard.service.MyAccessibilityService"
+"com.anas_mugally.clipboard.service.MyFirebaseMessagingService"
+"com.anas_mugally.clipboard.service.PrimaryBubbleService"
+"com.anas_mugally.clipboard.ui.AppEnableProFeaturesActivity"
+"com.anas_mugally.clipboard.ui.AppIntroActivity"
+"com.anas_mugally.clipboard.ui.BubbleCustomizationActivity"
+"com.anas_mugally.clipboard.ui.GoogleSignInActivity"
+"com.anas_mugally.clipboard.ui.SearchActivity"
+"com.anas_mugally.clipboard.ui.SectionActivity"
+"com.anas_mugally.clipboard.ui.SettingActivity"
+"com.anas_mugally.clipboard.ui.TextDialogActivity"
+"com.anas_mugally.clipboard.ui.TextExtractionActivity"
+"com.anas_mugally.clipboard.ui.UserProfileActivity"
+"com.anas_mugally.clipboard.ui.WatchAdActivity"
+"com.anas_mugally.clipboard.ui.accessibilitySetting.AccessibilitySettingActivity"
+"com.anas_mugally.clipboard.ui.accessibilitySetting.AccessibilitySettingFullActivity"
+"com.anas_mugally.clipboard.ui.addText.AddNoteActivity"
+"com.anas_mugally.clipboard.ui.ai.AiTextProcessingActivity"
+"com.anas_mugally.clipboard.ui.notes.BrowseNotesDialogActivity"
+"com.anas_mugally.clipboard.ui.notes.BrowserNotesFullActivity"
+"com.anas_mugally.clipboard.ui.scrollExtractTexts.ViewNodesActivity"
+"com.anas_mugally.clipboard.ui.temporaryNotes.BrowserTemporaryTextActivity"
+"com.android.billingclient.api.ProxyBillingActivity"
+"com.android.billingclient.api.ProxyBillingActivityV2"
+"com.android.stamp.source"
+"com.android.stamp.type"
+"com.android.vending.BILLING"
+"com.android.vending.CHECK_LICENSE"
+"com.android.vending.billing.InAppBillingService.BIND"
+"com.android.vending.derived.apk.id"
+"com.android.vending.splits"
+"com.android.vending.splits.required"
+"com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND"
+"com.google.android.c2dm.intent.RECEIVE"
+"com.google.android.c2dm.permission.RECEIVE"
+"com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+"com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+"com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+"com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+"com.google.android.gms.ads.APPLICATION_ID"
+"com.google.android.gms.ads.AdActivity"
+"com.google.android.gms.ads.AdService"
+"com.google.android.gms.ads.MobileAdsInitProvider"
+"com.google.android.gms.ads.NotificationHandlerActivity"
+"com.google.android.gms.ads.OutOfContextTestingActivity"
+"com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+"com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+"com.google.android.gms.auth.api.signin.RevocationBoundService"
+"com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+"com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+"com.google.android.gms.common.api.GoogleApiActivity"
+"com.google.android.gms.measurement.AppMeasurementJobService"
+"com.google.android.gms.measurement.AppMeasurementReceiver"
+"com.google.android.gms.measurement.AppMeasurementService"
+"com.google.android.gms.permission.AD_ID"
+"com.google.android.gms.version"
+"com.google.android.play.billingclient.version"
+"com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+"com.google.android.providers.gsf.permission.READ_GSERVICES"
+"com.google.firebase.MESSAGING_EVENT"
+"com.google.firebase.auth.internal.GenericIdpActivity"
+"com.google.firebase.auth.internal.RecaptchaActivity"
+"com.google.firebase.components.ComponentDiscoveryService"
+"com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+"com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+"com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+"com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+"com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+"com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+"com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+"com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+"com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+"com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+"com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+"com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+"com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+"com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+"com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+"com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+"com.google.firebase.iid.FirebaseInstanceIdReceiver"
+"com.google.firebase.messaging.FirebaseMessagingService"
+"com.google.firebase.provider.FirebaseInitProvider"
+"com.pairip.licensecheck.LicenseActivity"
+"com.pairip.licensecheck.LicenseContentProvider"
+"pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+
+COMPONENTS
+ <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+ <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+ <uses-permission android:name="com.android.vending.BILLING"/>
+ <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+ <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+ <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+ <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+ <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+ <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+ <uses-permission android:name="android.permission.INTERNET"/>
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ <uses-permission android:name="android.permission.WAKE_LOCK"/>
+ <uses-permission android:name="android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND"/>
+ <uses-permission android:name="android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
+ <uses-permission android:maxSdkVersion="28" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+ <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+ <uses-permission-sdk-23 android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+ <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+ <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+ <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+ <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+ <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+ <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+ <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS"/>
+ <uses-permission android:name="com.anas_mugally.clipboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+ <activity android:exported="true" android:name="com.anas_mugally.clipboard.ui.notes.BrowserNotesFullActivity" android:theme="@style/mainActivity">
+ <activity android:name="com.anas_mugally.clipboard.ui.SearchActivity" android:taskAffinity=".SearchActivity" android:theme="@style/Theme.DialogAlert" android:windowSoftInputMode="adjustResize"/>
+ <activity android:name="com.anas_mugally.clipboard.ui.SectionActivity" android:theme="@style/categoryActivity"/>
+ <activity android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.SettingActivity" android:resizeableActivity="true" android:taskAffinity=".SettingTask" android:theme="@style/Theme.DialogSettingTheme"/>
+ <activity android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.accessibilitySetting.AccessibilitySettingActivity" android:resizeableActivity="true" android:taskAffinity=".AccessibilitySettingTask" android:theme="@style/Theme.DialogSettingTheme"/>
+ <activity android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.accessibilitySetting.AccessibilitySettingFullActivity" android:resizeableActivity="true" android:theme="@style/Theme.SettingActivity"/>
+ <activity android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.BubbleCustomizationActivity" android:resizeableActivity="true" android:taskAffinity=".BubbleCustomizationTask" android:theme="@style/Theme.DialogSettingTheme"/>
+ <activity android:name="com.anas_mugally.clipboard.ui.AppEnableProFeaturesActivity" android:taskAffinity=".AppEnableProFeaturesTask" android:theme="@style/Theme.ClipboardTextSaved"/>
+ <activity android:name="com.anas_mugally.clipboard.ui.AppIntroActivity" android:taskAffinity=".AppIntroTask" android:theme="@style/Theme.ClipboardTextSaved"/>
+ <activity android:name="com.anas_mugally.clipboard.ui.notes.BrowseNotesDialogActivity" android:resizeableActivity="true" android:taskAffinity=".BrowseNotesDialogTask" android:theme="@style/Theme.DialogAlert"/>
+ <activity android:exported="false" android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.temporaryNotes.BrowserTemporaryTextActivity" android:resizeableActivity="true" android:taskAffinity=".BrowserTemporaryTextTask" android:theme="@style/Theme.DialogAlert" android:windowSoftInputMode="adjustResize"/>
+ <activity android:exported="true" android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.TextDialogActivity" android:resizeableActivity="true" android:taskAffinity=".TextDialogTask" android:theme="@style/Theme.Dialog">
+ <activity android:exported="false" android:name="com.anas_mugally.clipboard.ui.WatchAdActivity" android:resizeableActivity="true" android:theme="@style/Theme.DialogAlert"/>
+ <activity android:exported="false" android:label="@string/add_note" android:name="com.anas_mugally.clipboard.ui.addText.AddNoteActivity" android:taskAffinity=".AddNoteTask" android:theme="@style/Theme.AddNoteTheme" android:windowSoftInputMode="adjustPan"/>
+ <activity android:exported="true" android:icon="@mipmap/ic_ai_launcher" android:label="@string/ai_text_processing" android:name="com.anas_mugally.clipboard.ui.ai.AiTextProcessingActivity" android:resizeableActivity="true" android:taskAffinity=".AiTextProcessingTask" android:theme="@style/Theme.AddNoteTheme" android:windowSoftInputMode="adjustPan">
+ <activity android:exported="false" android:launchMode="singleInstance" android:name="com.anas_mugally.clipboard.ui.GoogleSignInActivity" android:theme="@style/mainActivity"/>
+ <activity android:exported="false" android:launchMode="singleInstance" android:name="com.anas_mugally.clipboard.ui.UserProfileActivity" android:theme="@style/mainActivity"/>
+ <activity android:excludeFromRecents="true" android:exported="false" android:name="com.anas_mugally.clipboard.ui.TextExtractionActivity" android:resizeableActivity="false" android:supportsPictureInPicture="false" android:taskAffinity=".TextExtractionTask" android:theme="@style/TransparentActivity" android:windowFullscreen="true" android:windowIsTranslucent="false"/>
+ <activity android:name="com.anas_mugally.clipboard.ui.scrollExtractTexts.ViewNodesActivity" android:resizeableActivity="true" android:taskAffinity=".ViewNodesTask" android:theme="@style/Theme.DialogAlert"/>
+ <service android:exported="true" android:label="@string/app_name" android:name="com.anas_mugally.clipboard.service.MyAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+ <receiver android:enabled="true" android:exported="true" android:name="com.anas_mugally.clipboard.broadcastReceiver.ShowOrHidePrimaryBubbleReceiver">
+ <receiver android:enabled="true" android:exported="false" android:name="com.anas_mugally.clipboard.broadcastReceiver.ScannerReceiver">
+ <service android:exported="true" android:icon="@drawable/ic_add_text" android:label="@string/add_note" android:name="com.anas_mugally.clipboard.service.AddTextTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+ <service android:exported="true" android:icon="@drawable/ic_brows_notes" android:label="@string/show_texts" android:name="com.anas_mugally.clipboard.service.BrowserTextTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+ <service android:exported="true" android:icon="@drawable/ic_temporary_texts" android:label="@string/temporary_texts" android:name="com.anas_mugally.clipboard.service.BrowserTemporaryTextTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+ <service android:exported="true" android:icon="@drawable/ic_ai" android:label="@string/ai_text_processing" android:name="com.anas_mugally.clipboard.service.AiTextProcessingTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+ <service android:exported="true" android:icon="@drawable/outline_document_scanner_24" android:label="@string/document_scanner_label" android:name="com.anas_mugally.clipboard.service.ExtractTextScannerTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+ <service android:exported="true" android:icon="@drawable/outline_scroll_scanner_24" android:label="@string/scroll_scanner_label" android:name="com.anas_mugally.clipboard.service.ExtractTextWhileScrollingScannerTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+ <service android:exported="false" android:name="com.anas_mugally.clipboard.service.PrimaryBubbleService"/>
+ <service android:exported="false" android:name="com.anas_mugally.clipboard.service.MyFirebaseMessagingService">
+ <provider android:authorities="com.anas_mugally.clipboard.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+ <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.google.firebase.auth.internal.GenericIdpActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+ <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleTask" android:name="com.google.firebase.auth.internal.RecaptchaActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+ <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+ <service android:enabled="true" android:exported="false" android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder">
+ <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.HiddenActivity" android:theme="@style/Theme.Hidden"/>
+ <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:enabled="true" android:exported="false" android:fitsSystemWindows="true" android:name="androidx.credentials.playservices.IdentityCredentialApiHiddenActivity" android:theme="@style/Theme.Hidden"/>
+ <activity android:exported="false" android:label="" android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity" android:theme="@style/EasyPermissions.Transparent"/>
+ <provider android:authorities="com.anas_mugally.clipboard.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+ <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+ <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+ <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+ <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+ <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+ <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivityV2" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+ <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+ <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+ <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+ <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+ <provider android:authorities="com.anas_mugally.clipboard.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+ <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:enableOnBackInvokedCallback="false" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/>
+ <provider android:authorities="com.anas_mugally.clipboard.mobileadsinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
+ <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.ads.AdService"/>
+ <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:exported="false" android:name="com.google.android.gms.ads.OutOfContextTestingActivity"/>
+ <activity android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.google.android.gms.ads.NotificationHandlerActivity" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+ <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+ <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+ <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+ <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+ <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+ <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+ <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+ <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+ <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+ <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+ <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+ <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+ <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+ <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+ <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+ <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+ <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+ <activity android:exported="false" android:name="com.pairip.licensecheck.LicenseActivity"/>
+ <provider android:authorities="com.anas_mugally.clipboard.com.pairip.licensecheck.LicenseContentProvider" android:exported="false" android:name="com.pairip.licensecheck.LicenseContentProvider"/>
+ <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>

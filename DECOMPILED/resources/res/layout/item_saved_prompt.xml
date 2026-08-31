@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/parent" android:tag="layout/item_saved_prompt_0" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="70.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:textColor="@color/ai_color" android:gravity="center" android:id="@id/chip_prompt" android:layout_width="wrap_content" android:layout_height="60.0dp" android:paddingHorizontal="20.0dp" app:cornerRadius="@dimen/my_app_radius" app:strokeColor="@color/ai_color" app:strokeWidth="1.0dp" style="@style/Widget.Material3.Button.OutlinedButton" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/group" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_main" android:id="@id/item_main" android:checked="true" android:title="@string/main" />
+        <item android:icon="@drawable/ic_category" android:id="@id/item_categories" android:title="@string/sections" />
+        <item android:icon="@drawable/ic_temporary_texts" android:id="@id/item_temporary_texts" android:title="@string/temporary_texts" />
+        <item android:icon="@drawable/ic_ai" android:id="@id/item_ai_text_processing" android:title="@string/ai_text_processing" />
+        <item android:icon="@drawable/ic_pro_setting" android:id="@id/item_pro_setting" android:title="@string/professional_features" />
+        <item android:icon="@drawable/ic_settings" android:id="@id/item_setting" android:title="@string/setting" />
+        <item android:icon="@drawable/star_shine_24px" android:id="@id/in_app_purchasing" android:title="@string/upgrade_pro" />
+    </group>
+    <group android:id="@id/group2" android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_share_black" android:id="@id/item_share_app" android:title="@string/share_app" />
+        <item android:icon="@drawable/rounded_apps_24" android:id="@id/item_my_app" android:title="@string/my_app" />
+        <item android:icon="@drawable/rounded_error_24" android:id="@id/item_report_problem" android:title="@string/report_error_title" />
+        <item android:icon="@drawable/ic_round_privacy_tip_24" android:id="@id/item_privacy_policy" android:title="@string/privacy_policy" />
+        <item android:icon="@drawable/ic_about" android:id="@id/item_about" android:title="@string/about_app" />
+    </group>
+</menu>

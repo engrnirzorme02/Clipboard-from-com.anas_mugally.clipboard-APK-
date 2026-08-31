@@ -1,0 +1,14 @@
+{
+  "project_name": "clipboard-working-project",
+  "artifact": "Clipboard-com.anas_mugally.clipboard-200.5.0-250.apk",
+  "package": "com.anas_mugally.clipboard",
+  "phase": "analysis-and-controlled-projectization",
+  "status": "analysis-ready-not-build-ready",
+  "sha256": "1fc59b0d40f49f0f1abad1d6700a8e68b5ad42b2a7d5ea457458bd9bcaa55a18",
+  "build_performed": false,
+  "runtime_verified": false,
+  "source_modified": false,
+  "decompiler": "JADX 1.5.6",
+  "resource_decoder": "Apktool 3.0.3",
+  "jadx_reported_errors": 47
+}

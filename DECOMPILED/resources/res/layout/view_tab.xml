@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:tag="layout/view_tab_0" android:paddingTop="@dimen/_3sdp" android:paddingBottom="@dimen/_3sdp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/_1sdp" android:paddingEnd="@dimen/_1sdp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_lock" android:visibility="visible" android:layout_width="@dimen/_14sdp" android:layout_height="@dimen/_14sdp" android:src="@drawable/ic_locked_tab" android:layout_marginEnd="@dimen/_5sdp" />
+    <TextView android:textSize="@dimen/_13ssp" android:textColor="@color/white" android:id="@id/text_name_category" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

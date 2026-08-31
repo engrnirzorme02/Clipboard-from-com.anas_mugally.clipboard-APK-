@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:background="@color/purple_200" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.anas_mugally.clipboard.ActionsLayout android:layout_gravity="center_horizontal" android:id="@id/toolbar" android:layout_width="wrap_content" android:layout_height="?actionBarSize" app:iconTint="@color/white" app:menu="@menu/symbol_menu_text_mutable" />
+</FrameLayout>

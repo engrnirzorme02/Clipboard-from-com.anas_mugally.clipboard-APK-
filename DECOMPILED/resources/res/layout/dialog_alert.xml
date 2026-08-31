@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:tag="layout/dialog_alert_0" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:cardBackgroundColor="@color/my_background" app:cardCornerRadius="@dimen/_5sdp" app:strokeWidth="0.0dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/_11ssp" android:gravity="center" android:id="@id/text_description" android:padding="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/text_enable_accessibility_description" />
+            <TextView android:textSize="@dimen/_14ssp" android:gravity="center" android:id="@id/btn_show_video" android:background="@drawable/rippl" android:padding="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/preview_video" />
+            <TextView android:textSize="@dimen/_14ssp" android:gravity="center" android:id="@id/btn_op" android:background="@drawable/rippl" android:padding="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/go_to_setting" />
+            <TextView android:textSize="@dimen/_14ssp" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/rippl" android:padding="@dimen/_8sdp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cansel" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

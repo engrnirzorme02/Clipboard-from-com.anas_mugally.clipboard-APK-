@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service android:description="@string/accessibility_description" android:summary="@string/app_name" android:settingsActivity="com.anas_mugally.clipboard.ui.accessibilitySetting.AccessibilitySettingActivity" android:accessibilityEventTypes="typeViewClicked|typeViewLongClicked|typeViewFocused|typeWindowContentChanged|typeViewTextSelectionChanged" android:accessibilityFeedbackType="feedbackHaptic" android:notificationTimeout="100" android:accessibilityFlags="flagRequestFilterKeyEvents|flagRetrieveInteractiveWindows" android:canRetrieveWindowContent="true" android:canRequestFilterKeyEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

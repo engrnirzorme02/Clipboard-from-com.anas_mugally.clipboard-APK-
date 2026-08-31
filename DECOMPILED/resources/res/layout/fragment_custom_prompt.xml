@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scroll" android:tag="layout/fragment_custom_prompt_0" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="5.0dp">
+        <TextView android:textSize="14.0sp" android:textColor="@color/ai_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp" android:text="@string/custom_prompt_description" />
+        <com.google.android.material.textfield.TextInputLayout android:theme="@style/AppTextInputLayout" android:id="@id/lay_input_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:hint="@string/prompt_title">
+            <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/_15ssp" android:textColor="@color/ai_color" android:id="@id/input_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:theme="@style/AppTextInputLayout" android:id="@id/lay_input_prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dp" android:hint="@string/prompt_instruction">
+            <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/_15ssp" android:textColor="@color/ai_color" android:gravity="start|top" android:id="@id/input_prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:minLines="4" android:inputType="textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/black" android:background="@color/info_background" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dp" android:text="@string/prompt_note" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:id="@id/btn_execute_only" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/execute_only" android:layout_weight="1.0" android:layout_marginEnd="8.0dp" app:strokeColor="@color/main_app_color" style="@style/Widget.Material3.Button.OutlinedButton" />
+            <com.google.android.material.button.MaterialButton android:id="@id/btn_save_and_execute" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/save_and_execute" android:layout_weight="1.0" android:layout_marginStart="8.0dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

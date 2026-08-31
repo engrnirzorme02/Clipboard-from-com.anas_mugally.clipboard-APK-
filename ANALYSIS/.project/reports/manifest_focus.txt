@@ -1,0 +1,81 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="36" android:compileSdkVersionCodename="16" android:requiredSplitTypes="base__abi,base__density" android:splitTypes="" package="com.anas_mugally.clipboard" platformBuildVersionCode="36" platformBuildVersionName="16">
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:cantSaveState="false" android:extractNativeLibs="false" android:forceDarkAllowed="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.anas_mugally.clipboard.MyApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.ClipboardTextSaved" android:usesCleartextTraffic="true">
+--- core components ---
+    <permission android:name="com.anas_mugally.clipboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.anas_mugally.clipboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:cantSaveState="false" android:extractNativeLibs="false" android:forceDarkAllowed="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.anas_mugally.clipboard.MyApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.ClipboardTextSaved" android:usesCleartextTraffic="true">
+        <activity android:exported="true" android:name="com.anas_mugally.clipboard.ui.notes.BrowserNotesFullActivity" android:theme="@style/mainActivity">
+        <activity android:name="com.anas_mugally.clipboard.ui.SearchActivity" android:taskAffinity=".SearchActivity" android:theme="@style/Theme.DialogAlert" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.anas_mugally.clipboard.ui.SectionActivity" android:theme="@style/categoryActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.SettingActivity" android:resizeableActivity="true" android:taskAffinity=".SettingTask" android:theme="@style/Theme.DialogSettingTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.accessibilitySetting.AccessibilitySettingActivity" android:resizeableActivity="true" android:taskAffinity=".AccessibilitySettingTask" android:theme="@style/Theme.DialogSettingTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.accessibilitySetting.AccessibilitySettingFullActivity" android:resizeableActivity="true" android:theme="@style/Theme.SettingActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.BubbleCustomizationActivity" android:resizeableActivity="true" android:taskAffinity=".BubbleCustomizationTask" android:theme="@style/Theme.DialogSettingTheme"/>
+        <activity android:name="com.anas_mugally.clipboard.ui.AppEnableProFeaturesActivity" android:taskAffinity=".AppEnableProFeaturesTask" android:theme="@style/Theme.ClipboardTextSaved"/>
+        <activity android:name="com.anas_mugally.clipboard.ui.AppIntroActivity" android:taskAffinity=".AppIntroTask" android:theme="@style/Theme.ClipboardTextSaved"/>
+        <activity android:name="com.anas_mugally.clipboard.ui.notes.BrowseNotesDialogActivity" android:resizeableActivity="true" android:taskAffinity=".BrowseNotesDialogTask" android:theme="@style/Theme.DialogAlert"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.temporaryNotes.BrowserTemporaryTextActivity" android:resizeableActivity="true" android:taskAffinity=".BrowserTemporaryTextTask" android:theme="@style/Theme.DialogAlert" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="true" android:launchMode="singleTask" android:name="com.anas_mugally.clipboard.ui.TextDialogActivity" android:resizeableActivity="true" android:taskAffinity=".TextDialogTask" android:theme="@style/Theme.Dialog">
+        <activity android:exported="false" android:name="com.anas_mugally.clipboard.ui.WatchAdActivity" android:resizeableActivity="true" android:theme="@style/Theme.DialogAlert"/>
+        <activity android:exported="false" android:label="@string/add_note" android:name="com.anas_mugally.clipboard.ui.addText.AddNoteActivity" android:taskAffinity=".AddNoteTask" android:theme="@style/Theme.AddNoteTheme" android:windowSoftInputMode="adjustPan"/>
+        <activity android:exported="true" android:icon="@mipmap/ic_ai_launcher" android:label="@string/ai_text_processing" android:name="com.anas_mugally.clipboard.ui.ai.AiTextProcessingActivity" android:resizeableActivity="true" android:taskAffinity=".AiTextProcessingTask" android:theme="@style/Theme.AddNoteTheme" android:windowSoftInputMode="adjustPan">
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="com.anas_mugally.clipboard.ui.GoogleSignInActivity" android:theme="@style/mainActivity"/>
+        <activity android:exported="false" android:launchMode="singleInstance" android:name="com.anas_mugally.clipboard.ui.UserProfileActivity" android:theme="@style/mainActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.anas_mugally.clipboard.ui.TextExtractionActivity" android:resizeableActivity="false" android:supportsPictureInPicture="false" android:taskAffinity=".TextExtractionTask" android:theme="@style/TransparentActivity" android:windowFullscreen="true" android:windowIsTranslucent="false"/>
+        <activity android:name="com.anas_mugally.clipboard.ui.scrollExtractTexts.ViewNodesActivity" android:resizeableActivity="true" android:taskAffinity=".ViewNodesTask" android:theme="@style/Theme.DialogAlert"/>
+        <service android:exported="true" android:label="@string/app_name" android:name="com.anas_mugally.clipboard.service.MyAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+        <receiver android:enabled="true" android:exported="true" android:name="com.anas_mugally.clipboard.broadcastReceiver.ShowOrHidePrimaryBubbleReceiver">
+        <receiver android:enabled="true" android:exported="false" android:name="com.anas_mugally.clipboard.broadcastReceiver.ScannerReceiver">
+        <service android:exported="true" android:icon="@drawable/ic_add_text" android:label="@string/add_note" android:name="com.anas_mugally.clipboard.service.AddTextTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+        <service android:exported="true" android:icon="@drawable/ic_brows_notes" android:label="@string/show_texts" android:name="com.anas_mugally.clipboard.service.BrowserTextTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+        <service android:exported="true" android:icon="@drawable/ic_temporary_texts" android:label="@string/temporary_texts" android:name="com.anas_mugally.clipboard.service.BrowserTemporaryTextTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+        <service android:exported="true" android:icon="@drawable/ic_ai" android:label="@string/ai_text_processing" android:name="com.anas_mugally.clipboard.service.AiTextProcessingTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+        <service android:exported="true" android:icon="@drawable/outline_document_scanner_24" android:label="@string/document_scanner_label" android:name="com.anas_mugally.clipboard.service.ExtractTextScannerTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+        <service android:exported="true" android:icon="@drawable/outline_scroll_scanner_24" android:label="@string/scroll_scanner_label" android:name="com.anas_mugally.clipboard.service.ExtractTextWhileScrollingScannerTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+        <service android:exported="false" android:name="com.anas_mugally.clipboard.service.PrimaryBubbleService"/>
+        <service android:exported="false" android:name="com.anas_mugally.clipboard.service.MyFirebaseMessagingService">
+--- relevant permissions ---
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.REQUEST_COMPANION_START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+--- feature xml ---
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/notification_bg.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/notification_action_background.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/notification_tile_bg.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/notification_icon_background.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/notification_bg_low.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/round_cleaning_services_24.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/round_circle_notifications_24.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/baseline_bubble_chart_24.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/bubble_button_background_light.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/bubble_button_background.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/ic_bubble.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable/ic_bubbel_notification.xml
+/home/ubuntu/apk_analysis/apktool_full/res/drawable-hdpi/notification_oversize_large_icon_bg.png
+/home/ubuntu/apk_analysis/apktool_full/res/layout/activity_accessibility_setting.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/bubble_icon_layout.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/activity_bubble_customization.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/bubble_actions_menu.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/notification_action.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/notification_template_icon_group.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/notification_template_custom_big.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/notification_custom_layout.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/notification_action_tombstone.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/notification_template_part_time.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/notification_template_part_chronometer.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/secoundry_bubble.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/view_bubble.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/view_accept_accessibility.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout/primary_bubble.xml
+/home/ubuntu/apk_analysis/apktool_full/res/raw/intro_smart_floating_bubble.mp4
+/home/ubuntu/apk_analysis/apktool_full/res/xml/accessibility_service_config.xml
+/home/ubuntu/apk_analysis/apktool_full/res/layout-land/bubble_actions_menu.xml

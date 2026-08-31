@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24.0dp" android:elevation="8.0dp" app:cardBackgroundColor="@color/my_background" app:cardCornerRadius="24.0dp" app:cardElevation="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:paddingTop="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?textAppearanceHeadlineMedium" android:textColor="?colorOnSurface" android:id="@id/dialog_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/select_action" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginHorizontal="15.0dp" />
+        <LinearLayout android:orientation="vertical" android:id="@id/actions_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/dialog_title" android:layout_centerHorizontal="true" />
+        <TextView android:textStyle="bold" android:textColor="@color/main_app_color" android:id="@id/btn_cancel" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cansel" android:layout_below="@id/actions_container" android:layout_marginEnd="24.0dp" android:layout_alignParentEnd="true" android:paddingHorizontal="24.0dp" android:paddingVertical="15.0dp" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

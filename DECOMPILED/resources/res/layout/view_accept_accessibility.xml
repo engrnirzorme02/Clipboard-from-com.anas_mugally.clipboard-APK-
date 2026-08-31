@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/view_accept_accessibility_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="@dimen/_7sdp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:layout_gravity="start" android:id="@id/text_show_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_accept_text" android:layout_marginHorizontal="18.0dp" />
+        <CheckBox android:layout_gravity="start" android:id="@id/accept_policy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ok_and_know_that" android:layout_marginHorizontal="18.0dp" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@id/btn_privacy_policy" android:padding="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_policy" android:layout_alignParentStart="true" />
+            <TextView android:textStyle="bold" android:layout_gravity="start" android:id="@id/btn_censal" android:padding="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cansel" android:layout_toStartOf="@id/btn_continue" />
+            <TextView android:textStyle="bold" android:layout_gravity="start" android:id="@id/btn_continue" android:padding="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/continue_text" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

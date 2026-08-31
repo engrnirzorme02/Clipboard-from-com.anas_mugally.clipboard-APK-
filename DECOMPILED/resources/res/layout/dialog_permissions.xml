@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?colorOnSurface" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dp" android:text="@string/permissions_description" />
+            <com.google.android.material.button.MaterialButton android:textAppearance="?textAppearanceBodyLarge" android:gravity="start|center" android:id="@id/btnShowOverApps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" android:text="@string/show_over_other_app" android:paddingVertical="16.0dp" app:icon="@drawable/ic_round_error_outline_24" app:iconGravity="start" app:iconPadding="16.0dp" app:iconSize="24.0dp" app:iconTint="@android:color/holo_red_light" app:strokeColor="?colorOutline" style="@style/Widget.Material3.Button.OutlinedButton" />
+            <com.google.android.material.button.MaterialButton android:textAppearance="?textAppearanceBodyLarge" android:gravity="start|center" android:id="@id/btnAccessibility" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/accessibility_service" android:paddingVertical="16.0dp" app:icon="@drawable/ic_round_error_outline_24" app:iconGravity="start" app:iconPadding="16.0dp" app:iconSize="24.0dp" app:iconTint="@android:color/holo_red_light" app:strokeColor="?colorOutline" style="@style/Widget.Material3.Button.OutlinedButton" />
+            <com.google.android.material.button.MaterialButton android:layout_gravity="end" android:id="@id/btnDone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:text="@string/ok" style="@style/Widget.Material3.Button.TextButton" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="24.0dp" android:elevation="8.0dp" app:cardBackgroundColor="@color/my_background" app:cardCornerRadius="24.0dp" app:cardElevation="5.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="24.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dp">
+        <TextView android:textAppearance="?textAppearanceHeadlineSmall" android:textColor="?colorOnSurface" android:id="@id/dialog_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp" />
+        <TextView android:textAppearance="?textAppearanceBodyMedium" android:textColor="?colorOnSurfaceVariant" android:id="@id/dialog_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dp" />
+        <CheckBox android:textColor="?colorOnSurfaceVariant" android:id="@id/dialog_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dp" android:text="@string/do_not_show_again" />
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:textColor="@color/main_app_color" android:id="@id/btn_cancel" android:background="?android:selectableItemBackground" android:padding="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cansel" />
+            <TextView android:textStyle="bold" android:textColor="@color/main_app_color" android:id="@id/btn_confirm" android:background="?android:selectableItemBackground" android:padding="15.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

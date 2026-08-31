@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_clear" android:id="@id/clear" android:title="@string/clear" app:showAsAction="always" />
+    <item android:icon="@drawable/round_open_in_browser_24" android:id="@id/open_in_dialog" android:title="@string/open_in_new_window" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_replace" android:id="@id/replace" android:title="@string/replace" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_magical_wand" android:id="@id/send_text" android:title="@string/ai" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share" android:id="@id/more" android:title="@string/share" app:showAsAction="always" />
+    <item android:icon="@drawable/round_open_in_full_24" android:id="@id/expended" android:title="@string/expende_or_collapse" app:showAsAction="always" />
+</menu>

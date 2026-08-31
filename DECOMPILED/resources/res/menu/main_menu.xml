@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_ai" android:id="@id/item_ai_text_processing" android:title="@string/ai_text_processing" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_temporary_texts" android:id="@id/item_temporary_texts" android:title="@string/temporary_texts" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_search_main" android:id="@id/item_search" android:title="@string/search" app:showAsAction="always" />
+</menu>

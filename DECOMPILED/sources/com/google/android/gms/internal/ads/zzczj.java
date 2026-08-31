@@ -1,0 +1,14 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: loaded from: classes2.dex */
+final /* synthetic */ class zzczj implements zzdai {
+    static final /* synthetic */ zzczj zza = new zzczj();
+
+    private /* synthetic */ zzczj() {
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzdai
+    public final /* synthetic */ void zza(Object obj) {
+        ((zzeli) obj).zzdx();
+    }
+}

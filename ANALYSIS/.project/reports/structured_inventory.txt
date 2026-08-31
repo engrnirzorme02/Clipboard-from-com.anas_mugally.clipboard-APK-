@@ -1,0 +1,35 @@
+apk_sha256=1fc59b0d40f49f0f1abad1d6700a8e68b5ad42b2a7d5ea457458bd9bcaa55a18
+apk_size_bytes=17648887
+dex_count=2
+native_so_count=0
+asset_count=2
+resource_file_count=1151
+java_file_count=14306
+core_java_file_count=59
+activity_count=33
+service_count=22
+receiver_count=14
+provider_count=5
+permission_count=25
+uses_cleartext=usesCleartextTraffic="true"
+application_class=android:name="android.permission.USE_FINGERPRINT"
+
+URLs
+https://adsmyapp-30a32-default-rtdb.firebaseio.com
+https://clipzboard.com/about-developer
+https://clipzboard.com/en/about-clipz-app
+https://clipzboard.com/privacy-policy
+https://galaxystore.samsung.com/detail/
+https://play.google.com/store/account/subscriptions
+https://play.google.com/store/apps/details?id=
+https://play.google.com/store/apps/developer?id=Anas+Mugally
+https://translate.google.com/?sl=auto&tl=en&text=
+https://youtu.be/sOt7UH2T6fo
+
+capability_strings
+    150 AccessibilityService
+      9 ClipboardManager
+     67 Firebase
+     31 GoogleSignIn
+      8 PROCESS_TEXT
+     36 TileService
